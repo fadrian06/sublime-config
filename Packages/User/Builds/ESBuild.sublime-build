@@ -1,0 +1,14 @@
+{
+	"shell_cmd": "esbuild $file_name --bundle --outfile=bundle.js --minify",
+	"selector": "source.js",
+	"variants": [
+		{
+			"name": "Watch",
+			"shell_cmd": "esbuild $file_name --bundle --outfile=bundle.js --watch --sourcemap=inline"
+		},
+		{
+			"name": "Serve",
+			"shell_cmd": "esbuild $file_name --bundle --outfile=bundle.js --watch --sourcemap=inline --server=127.0.0.1:3000"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+// List all your connections to DBs here
+{
+	"connections": {
+		"licosys": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "licosys",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+		"php_mysql_crud": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "php_mysql_crud",
+			"username": "root",
+			"password": "root",
+			"encoding": "utf-8"
+		},
+		"tasks-app": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "tasks-app",
+			"username": "root",
+			"password": "root",
+			"encoding": "utf-8"
+		},
+		"comunas": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "comunas",
+			"username": "root",
+			"password": "root",
+			"encoding": "utf-8"
+		},
+		"sistema": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "sistema",
+			"username": "root",
+			"password": "root",
+			"encoding": "utf-8"
+		},
+		
+		"Northwind": {
+			"type": "sqlite",
+			"database": "c:/Northwind.db",
+			"encoding": "utf-8"
+		},
+		"login": {
+			"type": "sqlite",
+			"database": "C:/laragon/www/login/login.db",
+			"encoding": "utf-8"
+		},
+		"flightapi": {
+			"type": "sqlite",
+			"database": "C:/laragon/www/flightapi/FlightApi.db",
+			"encoding": "utf-8"
+		},
+		"loginv2": {
+			"type": "sqlite",
+			"database": "C:/laragon/www/loginv2/loginv2.db",
+			"encoding": "utf-8"
+		},
+		
+	}
+}

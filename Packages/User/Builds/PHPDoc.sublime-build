@@ -1,0 +1,15 @@
+{
+	"shell_cmd": "php C:/bin/phpdoc.phar -t docs --cache-folder .phpdoc -i vendor/",
+	"quiet": true,
+	"selector": "text.xml",
+	"variants": [
+		{
+			"name": "With phpdoc.xsd",
+			"shell_cmd": "php C:/bin/phpdoc.phar -i vendor/ -c phpdoc.xml"
+		},
+		{
+			"name": "Template - clean",
+			"shell_cmd": "php C:/bin/phpdoc.phar -i vendor/ --template=\"clean\""
+		}
+	]
+}

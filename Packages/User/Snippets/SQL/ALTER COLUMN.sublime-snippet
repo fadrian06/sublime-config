@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ALTER TABLE ${1:table_name}
+${2:ADD|DROP|RENAME|MODIFY} ${3:column_name datatype};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ADD-COLUMN</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>ALTER TABLE ... ADD ...</description>
+</snippet>

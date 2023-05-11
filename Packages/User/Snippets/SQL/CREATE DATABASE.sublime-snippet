@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+CREATE DATABASE ${2:IF NOT EXISTS} ${1:dbName};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>CREATE-DATABASE</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>CREATE DATABASE dbname</description>
+</snippet>

@@ -1,0 +1,20 @@
+{
+	"shell_cmd": "phpstan analyse -l 0 --no-progress --error-format=prettyJson $file_path",
+	"selector": "embedding.php",
+	"syntax": "scope:source.json",
+	"quiet": true,
+	"variants": [
+		{
+			"name": "Level Max",
+			"shell_cmd": "phpstan analyse -l max --no-progress --error-format=prettyJson $file_path"
+		},
+		{
+			"name": "Generate Configuration (requires Sublime Project File)",
+			"shell_cmd": "touch $project_path\\phpstan.neon"
+		},
+		{
+			"name": "With Configuration (requires Sublime Project File)",
+			"shell_cmd": "phpstan analyse -c $project_path\\phpstan.neon --no-progress"
+		}
+	]
+}

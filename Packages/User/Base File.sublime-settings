@@ -1,0 +1,17 @@
+{
+	"alignment_chars": [
+		"=",
+		":",
+		"?",
+		"/*",
+		"//"
+	],
+	"alignment_space_chars": [
+		"=",
+		":",
+		"?",
+		"/*",
+		"//"
+	],
+  "jsdocs_extend_double_slash": false
+}

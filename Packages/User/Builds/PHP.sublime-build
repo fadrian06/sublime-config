@@ -1,0 +1,17 @@
+{
+	"shell_cmd": "C:/xampp/php/php \"$file_name\"",
+	"selector": "embedding.php",
+	"quiet": true,
+	"variants": [
+		{
+			"name": "8 x64",
+			"shell_cmd": "C:/php8/php \"$file_name\"",
+			"quiet": true
+		},
+		{
+			"name": "8 x86",
+			"shell_cmd": "C:/laragon/bin/php/php8/php \"$file_name\"",
+			"quiet": true
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"svg_converter": "magick",
+	"webp_converter": "magick",
+	"color_preview": false
+}

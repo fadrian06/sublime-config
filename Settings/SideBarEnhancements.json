@@ -1,0 +1,8 @@
+{
+	"C://xampp/htdocs/": {
+		"url_testing": "http://localhost/"
+	},
+	"C://laragon/www/": {
+		"url_testing": "http://localhost/"
+	}
+}

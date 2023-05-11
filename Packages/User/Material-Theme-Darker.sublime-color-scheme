@@ -1,0 +1,27 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables": {
+		
+	},
+	"globals": {
+		"background": "#111"
+	},
+	"rules": [
+		{
+			"scope": "comment",
+			"foreground": "#707070"
+		},
+		{
+			"scope": "entity.name.interface, entity.name.trait, entity.name.namespace, source.js meta.function-call.constructor.js variable.type.js",
+			"foreground": "#FFCB6B"
+		},
+		{
+			"scope": "text.jade source.js meta.binding.name.js variable.other.readwrite.js, text.jade source.js meta.function-call.js meta.group.js variable.other.readwrite.js",
+			"font_style": "italic"
+		},
+		{
+			"scope": "source.js meta.mapping.js meta.mapping.key.js, embedding.php text.html.basic meta.embedded.block.php source.php meta.string.php meta.interpolation.php source.sql.embedded.php",
+			"foreground": "#82AAFF"
+		}
+	]
+}

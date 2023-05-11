@@ -1,0 +1,14 @@
+{
+	"shell_cmd": "babel -s true --config-file \"C:/Program Files/nodejs/node_modules/@babel/babel.config.json\" $file_name -o $file_base_name-compiled.js",
+	"selector": "source.js - text.jade",
+	"variants": [
+		{
+			"name": "Watch",
+			"shell_cmd": "babel -s true --config-file \"C:/Program Files/nodejs/node_modules/@babel/babel.config.json\" $file_name -o $file_base_name-compiled.js -w"
+		},
+		{
+			"name": "Minified",
+			"shell_cmd": "babel --minified --compact true --no-comments --env-name production --config-file \"C:/Program Files/nodejs/node_modules/@babel/babel.config.json\" $file_name -o $file_base_name-compiled.js"
+		}
+	]
+}

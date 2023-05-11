@@ -1,0 +1,22 @@
+[
+	{
+		"id": "side-bar-files-open-with",
+		"children": [
+			{
+				"caption": "Word",
+				"id": "side-bar-files-open-with-word",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "C:\\Program Files (x86)\\Microsoft Office\\Office16\\WINWORD.EXE",
+					"extensions": "docx",
+					"args": [],
+					"multiple": true
+				}
+			},
+			{
+				"caption": "-"
+			}
+		]
+	}
+]

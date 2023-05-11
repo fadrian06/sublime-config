@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+INSERT INTO ${1:newTable}${2:(columns)}
+SELECT ${3:columns} FROM ${4:oldTable}
+${5:WHERE condition}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>INSERT-INTO-SELECT</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>INSERT INTO ... SELECT ...</description>
+</snippet>

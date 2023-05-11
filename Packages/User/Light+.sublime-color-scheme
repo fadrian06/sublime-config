@@ -1,0 +1,38 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables": {
+		"black": "#000",
+		"blue": "#326bcd",
+		"blue2": "#0451a4",
+		"blue3": "#0074c2",
+		"blue4": "#000f80",
+		"blue5": "#267d97",
+		"blue6": "#000080",
+		"blue7": "#00f",
+		"blue8": "#24292e",
+		"cyan": "#098658",
+		"cyan2": "#328166",
+		"green": "#008000",
+		"orange": "#cd9732",
+		"orange2": "#785d26",
+		"pink": "#800080",
+		"purple": "#af00db",
+		"red": "#d16b6b",
+		"red2": "#800000",
+		"red3": "#9e0000",
+		"red4": "#a21515",
+		"red5": "#cd3232",
+		"red6": "#f00",
+		"red7": "#7f1f3f",
+		"white": "#fff",
+		"white2": "#ebebeb",
+		"yellow": "#65a300"
+	},
+	"globals": {},
+	"rules": [
+		{
+			"scope": "",
+			"font_style": "bold"
+		}
+	]
+}

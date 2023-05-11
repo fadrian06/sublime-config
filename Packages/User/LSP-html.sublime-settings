@@ -1,0 +1,22 @@
+// Settings in here override those in "LSP-html/LSP-html.sublime-settings"
+{
+	"disabled_capabilities": {
+		"colorProvider": true,
+		"documentLinkProvider": true
+	},
+	"settings": {
+		"html.format.indentHandlebars": true,
+		"html.format.indentInnerHtml": true,
+		"html.format.templating": true,
+		"css.lint.compatibleVendorPrefixes": "warning",
+		"css.lint.duplicateProperties": "error",
+		"css.lint.importStatement": "warning",
+		"css.lint.important": "warning",
+		"css.lint.validProperties": [],
+		"css.lint.zeroUnits": "warning",
+		"javascript.referencesCodeLens.enabled": true,
+		"javascript.referencesCodeLens.showOnAllFunctions": true,
+		"javascript.suggest.completeFunctionCalls": true
+	},
+	"selector": "text.html.basic - embedding.php | text.html.handlebars | text.blade | text.html.markdown | text.html.smarty | text.html.hgn",
+}

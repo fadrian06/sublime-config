@@ -1,0 +1,7 @@
+{
+	"binDir": "C:/Users/Franyer/AppData/Roaming/npm/node_modules/stylus/bin",
+	"compileOnSave": false,
+	"compileDir": "../css/",
+	"compress": true,
+	"useAutoPrefixer": true,
+}

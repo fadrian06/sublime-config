@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP-intelephense/LSP-intelephense.sublime-settings"
+{
+	"settings": {
+		"intelephense.files.associations": [
+			"*.php",
+			"*.phtml",
+			"*.inc",
+			"*.php7",
+			"*.php8"
+		],
+		 // "intelephense.environment.phpVersion": "7.3.2",
+		 // "intelephense.environment.phpVersion": "8.0",
+		 "intelephense.environment.phpVersion": "8.2.5"
+	},
+	"enabled": true
+}

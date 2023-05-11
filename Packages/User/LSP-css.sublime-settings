@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP-css/LSP-css.sublime-settings"
+{
+	"disabled_capabilities": {
+		"colorProvider": true
+	},
+	"settings": {
+		"css.lint.compatibleVendorPrefixes": "warning",
+		"css.lint.duplicateProperties": "error",
+		"css.lint.emptyRules": "ignore",
+		"css.lint.important": "warning",
+		"css.lint.validProperties": [],
+		"css.lint.zeroUnits": "warning",
+		"css.format.enable": true
+	},
+	"selector": "source.css | source.scss | source.less | source.stylus",
+}

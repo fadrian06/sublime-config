@@ -1,0 +1,16 @@
+{
+	// Settings
+	"override_panel_settings": true,
+	"colored_output": true,
+	// Type paths
+	"php_path": "php",
+	"artisan_path": "artisan",
+	"composer_path": "composer",
+	"npm_path": "npm",
+	"yarn_path": "yarn",
+	"python_path": "python",
+	"phpunit_path": "./vendor/bin/phpunit",
+	"phpstan_path": "C:/Users/Franyer/AppData/Roaming/Composer/vendor/bin/phpstan",
+	"psalm_path": "./vendor/bin/psalm",
+	"eslint_path": "./node_modules/.bin/eslint"
+}

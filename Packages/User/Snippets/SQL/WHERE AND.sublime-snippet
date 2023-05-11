@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+WHERE ${1:condition1} AND ${2:condition2 AND ...}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>WHERE-AND</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>WHERE condition1 AND condition2 AND ...</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+CASE
+	WHEN ${1:condition1} THEN ${2:result1}${3:
+	WHEN condition2 THEN result2
+	WHEN conditionN THEN resultN}
+	${4:ELSE ${5:result}}
+END
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>CASE</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>CASE conditions</description>
+</snippet>

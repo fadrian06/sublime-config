@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+WHERE NOT ${1:condition}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>WHERE-NOT</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>WHERE NOT condition</description>
+</snippet>

@@ -1,0 +1,14 @@
+[
+	{
+	  "class": "quick_panel",
+	  "row_padding": [8, 3],
+	  "layer0.tint": [16, 16, 16],
+	  "layer0.opacity": 1.0
+	},
+	{
+	  "class": "sidebar_tree",
+	  "row_padding": [12, 4],
+	  "indent": 8,
+    "layer0.tint": [16, 16, 16],
+	},
+]

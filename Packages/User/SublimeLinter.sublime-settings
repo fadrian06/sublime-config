@@ -1,0 +1,25 @@
+// SublimeLinter Settings - User
+{
+	"delay": 0,
+	"no_column_highlights_line": true,
+	"styles": [
+		{
+			"scope": "region.yellowish markup.warning.sublime_linter",
+			"types": [
+				"warning"
+			]
+		},
+		{
+			"priority": 1,
+			"icon": "x",
+			"mark_style": "outline",
+			"scope": "region.redish markup.error.sublime_linter"
+		}
+	],
+	"linters": {
+		"phpstan": {
+			"args": "-c C:/Users/Franyer/AppData/Roaming/Composer/vendor/phpstan/phpstan/conf/bleedingEdge.neon",
+			"level": "max"
+		}
+	}
+}

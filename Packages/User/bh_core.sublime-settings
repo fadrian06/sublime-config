@@ -1,0 +1,283 @@
+{
+	"content_highlight_bar": true,
+	"align_content_highlight_bar": true,
+	"ignore_threshold": true,
+	"brackets": [
+		// Basic brackets
+		{
+			"name": "curly",
+			"open": "(\\{)",
+			"close": "(\\})",
+			"style": "curly",
+			"scope_exclude": [
+				"string",
+				"comment",
+				"source.regexp constant.character.escape",
+				"source.yaml-tmlanguage constant.character.escape"
+			],
+			"scope_exclude_exceptions": [
+				"text.tex string.other.math"
+			],
+			"language_filter": "blocklist",
+			"language_list": [
+				"Plain text",
+				"Hex"
+			],
+			"find_in_sub_search": "true",
+			"ignore_string_escape": true,
+			"enabled": true
+		},
+		{
+			"name": "round",
+			"open": "(\\()",
+			"close": "(\\))",
+			"style": "round",
+			"scope_exclude_exceptions": [
+				"text.tex string.other.math",
+				"punctuation.definition.string.begin.shell",
+				"punctuation.definition.string.end.shell"
+			],
+			"scope_exclude": [
+				"string",
+				"comment",
+				"source.regexp constant.character.escape",
+				"keyword.control.conditional.patterns.end.shell",
+				"keyword.control.case.item",
+				"source.yaml-tmlanguage constant.character.escape",
+				"text.html.markdown"
+			],
+			"language_filter": "blocklist",
+			"language_list": [
+				"Plain text",
+				"Hex",
+				"RTF"
+			],
+			"find_in_sub_search": "true",
+			"ignore_string_escape": true,
+			"enabled": true
+		},
+		//XML
+		{
+			"name": "xml_cdata",
+			"open": "(<!\\[CDATA\\[)",
+			"close": "(\\]\\]>)",
+			"style": "default",
+			"language_filter": "allowlist",
+			"language_list": [
+				"XML"
+			],
+			"scope_exclude": [
+				"comment"
+			],
+			"enabled": false
+		},
+		{
+			"name": "square",
+			"open": "(\\[)",
+			"close": "(\\])",
+			"style": "square",
+			"scope_exclude": [
+				"string",
+				"source.regexp constant.character.escape",
+				"comment"
+			],
+			"scope_exclude_exceptions": [
+				"text.tex string.other.math",
+				"source.yaml-tmlanguage meta.value -constant.character.escape"
+			],
+			"language_filter": "blocklist",
+			"language_list": [
+				"Plain text",
+				"Hex",
+				"RTF"
+			],
+			"find_in_sub_search": "true",
+			"ignore_string_escape": true,
+			"enabled": true
+		},
+		// PHP Angle
+		{
+			"name": "php_angle",
+			"open": "(<\\?)(?:php)?",
+			"close": "(\\?>)",
+			"style": "angle",
+			"scope_exclude": [
+				"string",
+				"comment",
+				"keyword.operator"
+			],
+			"language_filter": "allowlist",
+			"language_list": [
+				"HTML",
+				"HTML 5",
+				"PHP"
+			],
+			"enabled": false
+		},
+		// Angle
+		{
+			"name": "angle",
+			"open": "(<)(?=[^?%]|$)",
+			"close": "(?:(?<=[^?%])|(?<=^))(>)",
+			"style": "angle",
+			"scope_exclude": [
+				"string",
+				"comment",
+				"keyword.operator",
+				"source.ruby.rails.embedded.html",
+				"source.ruby.embedded.html",
+				"storage.type.function.arrow.js",
+				"punctuation.accessor.php",
+				"punctuation.accessor.arrow.php",
+				"punctuation.definition.arrow-function.php",
+				"keyword.declaration.function.arrow.js",
+				"source.php meta.embedded.html punctuation.section.embedded.begin.php",
+				"source.php meta.embedded.js punctuation.section.embedded.begin.php",
+				"source.php meta.embedded.css punctuation.section.embedded.begin.php"
+			],
+			"language_filter": "allowlist",
+			"language_list": [
+				"HTML",
+				"HTML 5",
+				// "XML",
+				"PHP",
+				"HTML (Rails)",
+				"HTML (Jinja Templates)",
+				"HTML (Jinja2)",
+				"HTML (Twig)",
+				"HTML (Django)",
+				"Jinja",
+				"CFML",
+				"HTML+CFML",
+				"ColdFusion",
+				"ColdFusionCFC",
+				"laravel-blade",
+				"blade",
+				"Handlebars",
+				"AngularJS",
+				"Java Server Pages (JSP)"
+			],
+			"plugin_library": "bh_modules.tags",
+			"enabled": true
+		},
+		// CSSedit groups
+		{
+			"name": "cssedit_groups",
+			"open": "(/\\* *@group .*\\*/)",
+			"close": "(/\\* *@end *\\*/)",
+			"style": "default",
+			"scope_exclude": [],
+			"language_filter": "allowlist",
+			"language_list": [
+				"CSS"
+			],
+			"enabled": true
+		},
+		// C/C++ compile switches
+		{
+			"name": "c_compile_switch",
+			"open": "\\#[ \\t]*(if|ifdef|ifndef)\\b",
+			"close": "\\#[ \\t]*(endif)\\b",
+			"style": "c_define",
+			"scope_exclude": [
+				"string",
+				"comment"
+			],
+			"language_filter": "allowlist",
+			"language_list": [
+				"C++",
+				"C",
+				"Objective-C++",
+				"Objective-C",
+				"CCpp",
+				"C Improved"
+			],
+			"enabled": true
+		},
+		// PHP conditional keywords
+		// !!! May conflict with `ruby_embedded_html` if enabled in same file !!!
+		{
+			"name": "php_keywords",
+			"open": "(?:(?<=^)|(?<=<\\?php)|(?<=<\\?))\\s*(if|foreach|for|while|switch)\\b(?=.*?\\)\\s*:\\s*(?://.*?|/\\*.*?\\*/\\s*?)?(?:\\?>|$))",
+			"close": "(?:(?<=^)|(?<=<\\?php)|(?<=<\\?))\\s*(endif|endfor|endforeach|endwhile|endswitch)\\b(?=\\s*(?:;|;?\\?>))",
+			"style": "default",
+			"language_filter": "allowlist",
+			"scope_exclude": [
+				"string",
+				"comment",
+				"text.html"
+			],
+			"scope_exclude_exceptions": [
+				"source.php -comment -string"
+			],
+			"plugin_library": "bh_modules.phpkeywords",
+			"language_list": [
+				"HTML",
+				"HTML 5",
+				"PHP",
+				"CFML",
+				"HTML+CFML",
+				"ColdFusion",
+				"ColdFusionCFC"
+			],
+			"enabled": true
+		}
+	],
+	"bracket_styles": {
+		"default": {
+			"icon": "dot",
+			"color": "region.redish brackethighlighter.default",
+			"style": "underline"
+		},
+		"unmatched": {
+			"icon": "question",
+			"color": "region.redish",
+			"style": "outline"
+		},
+		"curly": {
+			"icon": "curly_bracket",
+			"color": "region.purplish",
+			"style": "underline"
+		},
+		"round": {
+			"icon": "round_bracket",
+			"color": "region.yellowish",
+			"style": "underline"
+		},
+		"square": {
+			"icon": "square_bracket",
+			"color": "region.bluish",
+			"style": "underline"
+		},
+		"angle": {
+			"icon": "angle_bracket",
+			"color": "region.orangish",
+			"style": "underline"
+		},
+		"tag": {
+			"icon": "tag",
+			"color": "region.orangish",
+			"style": "underline"
+		},
+		"c_define": {
+			"icon": "hash",
+			"color": "region.yellowish",
+			"style": "underline"
+		},
+		"single_quote": {
+			"icon": "single_quote",
+			"color": "region.greenish",
+			"style": "underline"
+		},
+		"double_quote": {
+			"icon": "double_quote",
+			"color": "region.greenish",
+			"style": "underline"
+		},
+		"regex": {
+			"icon": "star",
+			"color": "region.greenish",
+			"style": "underline"
+		}
+	}
+}

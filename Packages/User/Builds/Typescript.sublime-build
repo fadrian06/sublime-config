@@ -1,0 +1,12 @@
+{
+	"shell_cmd": "tsc $file_name --outFile $file_base_name.js",
+	"selector": "source.ts",
+	"quiet": true,
+	"variants": [
+		{
+			"name": "Watch",
+			"shell_cmd": "tsc $file_name --outFile $file_base_name.js -w",
+			"quiet": true
+		}
+	]
+}

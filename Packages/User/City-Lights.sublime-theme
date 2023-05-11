@@ -1,0 +1,11 @@
+[
+	// Sidebar tree
+	{
+		"class": "sidebar_tree",
+		"row_padding": [
+			4,
+			3
+		],
+		"indent": 10,
+	},
+]

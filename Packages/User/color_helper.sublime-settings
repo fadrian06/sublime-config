@@ -1,0 +1,204 @@
+// Settings in here override those in "ColorHelper/color_helper.sublime-settings",
+{
+	"color_rules": [
+		{
+			"name": "HTML/CSS",
+			"base_scopes": [
+				"source.css",
+				"text.html"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				// https://packagecontrol.io/packages/CSS3
+				"meta.declaration-list.css -support.type.property-name.css -comment -string",
+				// CSS, CSS in HTML etc. (based on: Sublime Default)
+				"meta.property-value.css -comment -string",
+				// CSS3, CSS3 in HTML etc. (based on: https://packagecontrol.io/packages/CSS3)
+				"meta.value.css -comment -string",
+				// HTML attributes (based on: Sublime Default)
+				"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+				"meta.tag.any.html meta.attribute-with-value.style.html"
+			]
+		},
+		{
+			// Setting is experimental, set "enable" to false if false positives are problematic.
+			//
+			// GraphViz provides limited scoping that limits our ability to identify exactly
+			// where colors will and will not appear. It also uses deprecated attributes
+			// in HTML snippets that do not style the colors with the CSS syntax as HTML normally
+			// does.
+			//
+			// All of this "could" lead to false positives. We do our best to limit scoping as
+			// much as reasonable. HSV support is currently limited due to the fact the syntax
+			// is very non-specific (floats separated by commas or spaces) and is likely to cause
+			// the most false positives. If the GraphViz syntax were to scope colors with a
+			// special scope, or at least properties that are likely to contain colors, we
+			// could greatly reduce/eliminate false positives and add HSV support with more
+			// confidence.
+			"name": "Graphviz",
+			"base_scopes": [
+				"source.dot"
+			],
+			"color_class": [
+				{
+					"class": "tmtheme",
+					"scopes": "meta.attributes.dot -text.html.basic"
+				},
+				{
+					"class": "css-level-4",
+					"scopes": "text.html.basic"
+				}
+			],
+			"scanning": [
+				"source.dot meta.attributes.dot -text.html.basic",
+				"meta.attribute-with-value.html meta.string.html"
+			]
+		},
+		{
+			"name": "PackageDev Sublime Schemes/Theme",
+			"syntax_files": [
+				"PackageDev/Package/Sublime Text Color Scheme/Sublime Text Color Scheme",
+				"PackageDev/Package/Sublime Text Theme/Sublime Text Theme"
+			],
+			"color_class": "sublime-colormod",
+			"color_trigger": "(?i)(?:\\b(?<![-#&$])(?:color\\((?!\\s*-)|(?:hsla?|hwb|rgba?)\\()|\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?!<&)\\#)",
+			"scanning": [
+				"source.css-color -meta.function-call.var.sublime-color-scheme -meta.function-call.var.css",
+				"meta.css.sublime-color-scheme meta.property-value.css -comment -string.quoted.single.css -string.quoted.double.css"
+			]
+		},
+		{
+			// Sass (based on: https://packagecontrol.io/packages/Sass)
+			"name": "Sass",
+			"syntax_files": [
+				"Sass/Syntaxes/Sass",
+				"Sass/Syntaxes/SCSS"
+			],
+			"base_scopes": [
+				"source.sass",
+				"source.scss"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"source.sass meta.property-value.css -comment -string -variable.declaration.sass",
+				"source.scss meta.property-value.css -comment -string -variable.declaration.sass"
+			]
+		},
+		{
+			// SCSS (based on https://packagecontrol.io/packages/SCSS)
+			"name": "SCSS",
+			"syntax_files": [
+				"SCSS/SCSS"
+			],
+			"base_scopes": [
+				"source.scss"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"source.scss -comment -string"
+			]
+		},
+		{
+			// SCSS (based on https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass)
+			"name": "Syntax Highlighting for Sass",
+			"syntax_files": [
+				"Syntax Highlighting for Sass/Syntaxes/SCSS",
+				"Syntax Highlighting for Sass/Syntaxes/Sass"
+			],
+			"base_scopes": [
+				"source.scss",
+				"source.sass"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"source.scss -comment -string -support.type.property-name -variable.declaration",
+				"source.sass -comment -string -support.type.property-name -variable.declaration"
+			]
+		},
+		{
+			// Sass (based on: https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20PostCSS)
+			"name": "PostCSS",
+			"syntax_files": [
+				"Syntax Highlighting for PostCSS/Syntaxes/PostCSS"
+			],
+			"base_scopes": [
+				"source.postcss"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"source.postcss meta.property-list.css.postcss -comment -string"
+			]
+		},
+		{
+			"name": "tmTheme",
+			"color_trigger": "(?i)(?:\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?!<&)\\#)",
+			"extensions": [
+				".tmTheme"
+			],
+			"base_scopes": [
+				"text.xml"
+			],
+			"color_class": "tmtheme",
+			"scanning": [
+				"text.xml -meta.tag.xml -comment -string, string.unquoted.cdata.xml"
+			]
+		},
+		{
+			"name": "XML",
+			"base_scopes": [
+				"text.xml"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"text.xml -meta.tag.xml -comment -string, string.unquoted.cdata.xml"
+			]
+		},
+		{
+			// Stylus (based on: https://github.com/billymoon/Stylus/blob/master/Stylus.tmLanguage)
+			"name": "Stylus",
+			"base_scopes": [
+				"source.stylus"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"constant.other.color.rgb-value.stylus",
+				"constant.color.w3c-standard-color-name.stylus",
+				"meta.property-value.stylus"
+			]
+		},
+		{
+			"name": "Less",
+			"base_scopes": [
+				"source.less"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"constant.other.color.rgb-value.css",
+				"constant.color.w3c-standard-color-name.css",
+				"meta.property-value.css"
+			]
+		},
+		{
+			// ASS (based on: https://packagecontrol.io/packages/Advanced%20Substation%20Alpha%20(ASS))
+			"name": "ASS",
+			"base_scopes": [
+				"text.ass"
+			],
+			"scanning": [
+				"constant.other.color"
+			],
+			"color_class": "ass_abgr",
+			"color_trigger": "(?:&H|(?<=\\\\[1-4]c)|(?<=\\\\c))[0-9a-fA-F]"
+		},
+		{
+			"name": "INI",
+			"base_scopes": [
+				"source.ini"
+			],
+			"color_class": "css-level-4",
+			"scanning": [
+				"source.ini meta.mapping.value.ini string.unquoted.ini"
+			]
+		},
+	],
+}

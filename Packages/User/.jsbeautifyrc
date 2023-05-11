@@ -1,0 +1,29 @@
+{
+	"all": {
+		"indent_size": 2,
+		"indent_with_tabs": true,
+		"preserve_newlines": false
+	},
+	"html": {
+		"indent_handlebars": true,
+		"indent_inner_html": false,
+		"indent_scripts": "normal"
+	},
+	"css": {
+		"selector_separator_newline": false
+	},
+	"js": {
+		"brace_style": "collapse",
+		"keep_array_indentation": true
+	},
+	"json": {
+		"brace_style": "collapse",
+		"keep_array_indentation": true
+	},
+	"custom": {
+		"*.sublime-@(settings|keymap|commands|menu)": {
+			"indent_size": 2,
+			"brace_style": "collapse"
+		}
+	}
+}
