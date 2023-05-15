@@ -16,7 +16,34 @@
 			},
 			{
 				"caption": "-"
-			}
+			},
+			{
+				"caption": "Brave",
+				"id": "side-bar-files-open-with-brave",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+					"extensions": "*",
+					"args": [],
+					"multiple": false
+				}
+			},
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "C:/Program Files/Mozilla Firefox/firefox.exe",
+					"extensions": "*",
+					"args": [],
+					"multiple": false
+				}
+			},
+			{
+				"caption": "-"
+			},
 		]
 	}
 ]

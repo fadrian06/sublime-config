@@ -98,5 +98,6 @@
 			"https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js",
 			"res://MarkdownPreview/js/math_config.js",
 		]
-	}
+	},
+	"gitlab_personal_token": "glpat--_m1AmymVXziZbey3Ypy",
 }

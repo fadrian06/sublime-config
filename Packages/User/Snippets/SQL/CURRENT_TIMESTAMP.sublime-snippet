@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-TRUNCATE TABLE ${1:tableName};
+CURRENT_TIMESTAMP
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>TRUNCATE-TABLE</tabTrigger>
+	<tabTrigger>current</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sql</scope>
-	<description>TRUNCATE TABLE tableName</description>
+	<description>Get current timestamp</description>
 </snippet>

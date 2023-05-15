@@ -4,9 +4,10 @@
 	/////////////
 	"caret_style": "phase",
 	"update_check": false,
-	"color_scheme": "ayu-dark.sublime-color-scheme",
-	"theme": "Gravity.sublime-theme",
-	"font_face": "JetBrains Mono",
+	"color_scheme": "Light+.sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+	// "font_face": "JetBrains Mono",
+	"font_face": "JetBrainsMono NFM",
 	"margin": 0,
 	"tab_size": 2,
 	"detect_indentation": false,
@@ -34,7 +35,6 @@
 		"LSP-marksman",
 		"LSP-stylelint",
 		"LSP-tailwindcss",
-		"Lua",
 		"Matlab",
 		"Objective-C",
 		"OCaml",
@@ -47,6 +47,7 @@
 		"Ruby",
 		"Rust",
 		"Scala",
+		"SublimeLinter-contrib-phpstan",
 		"TCL",
 		"Textile",
 		"Vintage",
@@ -272,4 +273,5 @@
 	"gravity_org_label_size": true,
 	"gravity_tab_font_small": true,
 	"show_panel_on_build": true,
+	/*"font_size": 15,*/
 }

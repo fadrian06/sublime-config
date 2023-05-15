@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-TRUNCATE TABLE ${1:tableName};
+length(${1:field})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>TRUNCATE-TABLE</tabTrigger>
+	<tabTrigger>length</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sql</scope>
-	<description>TRUNCATE TABLE tableName</description>
+	<description>LENGTH SQLite3 Function</description>
 </snippet>

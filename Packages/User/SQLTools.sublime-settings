@@ -6,6 +6,6 @@
 		"strip_comments": false,
 		"indent_tabs": true,
 		"indent_width": 2,
-		"reindent": true
+		"reindent": false
 	},
 }

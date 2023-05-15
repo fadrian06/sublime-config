@@ -33,6 +33,18 @@
 		{
 			"scope": "",
 			"font_style": "bold"
+		},
+		{
+			"scope": "meta.path.url.html",
+			"font_style": "bold underline"
+		},
+		{
+			"scope": "string.quoted.(single|double)",
+			"foreground": "var(green)"
+		},
+		{
+			"scope": "meta.mapping.key string.quoted.double",
+			"foreground": "var(yellow)"
 		}
 	]
 }

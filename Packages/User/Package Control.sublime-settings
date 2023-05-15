@@ -67,6 +67,8 @@
 		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-phpstan",
 		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
 		"SublimeLinter-pug-lint",
 		"Super Calculator",
 		"SVG Preview",

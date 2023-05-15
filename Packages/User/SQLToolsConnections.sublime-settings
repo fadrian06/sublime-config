@@ -67,6 +67,11 @@
 			"database": "C:/laragon/www/loginv2/loginv2.db",
 			"encoding": "utf-8"
 		},
+		"app": {
+			"type": "sqlite",
+			"database": "C:/laragon/www/develoteca/app/app.db",
+			"encoding": "utf-8"
+		},
 		
 	}
 }

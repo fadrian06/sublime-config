@@ -1,5 +1,5 @@
 {
-	"php_bin":"C:/xampp/php/php.exe",
+	"php_bin":"C:/php7/php.exe",
 	"autocomplete": false,
 	"autoimport": true,
 	"format_on_save": false,
