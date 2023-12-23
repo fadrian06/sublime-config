@@ -1,0 +1,29 @@
+// Settings in here override those in "LSP-css/LSP-css.sublime-settings"
+{
+	"disabled_capabilities": {
+		"colorProvider": true,
+		"hoverProvider": true,
+		"documentLinkProvider": true
+	},
+	"settings": {
+		"css.lint.boxModel": "warning",
+		"css.lint.compatibleVendorPrefixes": "warning",
+		"css.lint.duplicateProperties": "warning",
+		"css.lint.emptyRules": "ignore",
+		"css.lint.idSelector": "warning",
+		"css.lint.ieHack": "warning",
+		"css.lint.importStatement": "warning",
+		"css.lint.universalSelector": "warning",
+		"css.lint.unknownVendorSpecificProperties": "warning",
+		"css.lint.float": "warning",
+		"css.lint.important": "warning",
+		"css.lint.validProperties": [
+			"-webkit-font-smoothing",
+			"-moz-osx-font-smoothing"
+		],
+		"css.lint.zeroUnits": "warning",
+		"css.format.preserveNewLines": false,
+		"css.lint.unknownAtRules": "ignore"
+	},
+	"enabled": true
+}

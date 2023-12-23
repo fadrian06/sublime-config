@@ -1,0 +1,87 @@
+// List all your connections to DBs here
+{
+	"connections": {
+		///////////////////
+		// MYSQL - XAMPP //
+		///////////////////
+		"licosys": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "licosys",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+		"sistema-escolar": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "sistema-escolar",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+		"dataescolar": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "dataescolar",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+		"sisfarmacia": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "sisfarmacia",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+		"control_notas": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "control_notas",
+			"username": "root",
+			"password": "",
+			"encoding": "utf-8"
+		},
+
+		/////////////////////
+		// MYSQL - LARAGON //
+		/////////////////////
+		"test": {
+			"type": "mysql",
+			"host": "localhost",
+			"port": 3306,
+			"database": "test",
+			"username": "root",
+			"password": "root",
+			"encoding": "utf-8"
+		},
+		////////////
+		// SQLITE //
+		////////////
+		"Northwind": {
+			"type": "sqlite",
+			"database": "c:/Northwind.db",
+			"encoding": "utf-8"
+		},
+		"Wimainder": {
+			"type": "sqlite",
+			"database": "C:/xampp/htdocs/wimainder/src/BaseDeDatos/WiMainder.db"
+		},
+		"practicas": {
+			"type": "sqlite",
+			"database": "C:/laragon/www/practicas/practicas.db"
+		},
+		"licosysv2": {
+			"type": "sqlite",
+			"database": "C:/xampp/htdocs/proyectos/licosys/licosys.db"
+		},
+
+	}
+}

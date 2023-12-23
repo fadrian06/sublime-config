@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+DROP ${1:INDEX|CONSTRAINT|PRIMARY KEY|FOREIGN KEY|CHECK} ${2:name};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>DROP-CONSTRAINT</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>DROP CONSTRAINT name</description>
+</snippet>

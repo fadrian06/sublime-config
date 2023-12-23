@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+IFNULL(${1:column}, ${2:valueIfIsNull})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>IFNULL</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>IFNULL(column)</description>
+</snippet>

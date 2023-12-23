@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+AS ${1:newName | [New Name]}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>AS</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>AS newName</description>
+</snippet>

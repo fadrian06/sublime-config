@@ -1,0 +1,30 @@
+{
+	"shell_cmd": "composer --help",
+	"selector": "source.json.composer",
+	"variants": [
+		{
+			"name": "Install All",
+			"shell_cmd": "composer install --no-progress",
+		},
+		{
+			"name": "Force Install All",
+			"shell_cmd": "composer install --no-progress --ignore-platform-reqs",
+		},
+		{
+			"name": "Install Production Deps",
+			"shell_cmd": "composer install --no-dev --no-progress",
+		},
+		{
+			"name": "Update All",
+			"shell_cmd": "composer update",
+		},
+		{
+			"name": "Dump autoloader",
+			"shell_cmd": "composer dump-autoload",
+		},
+		{
+			"name": "Optimize autoloader",
+			"shell_cmd": "composer dump-autoload -o"
+		}
+	]
+}

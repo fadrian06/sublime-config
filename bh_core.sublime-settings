@@ -1,0 +1,26 @@
+{
+	"align_content_highlight_bar": true,
+	"content_highlight_bar": true,
+	"ignore_threshold": true,
+	"user_brackets": [
+		// PHP Angle
+		{
+			"name": "php_angle",
+			"open": "(<\\?)(?:php)?",
+			"close": "(\\?>)",
+			"style": "angle",
+			"scope_exclude": [
+				"string",
+				"comment",
+				"keyword.operator"
+			],
+			"language_filter": "allowlist",
+			"language_list": [
+				"HTML",
+				"HTML 5",
+				"PHP"
+			],
+			"enabled": false
+		},
+	]
+}

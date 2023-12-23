@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+RewriteEngine On
+RewriteRule ^(.*)\$ index.php
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>single</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apacheconf</scope>
+  <description>Define a single application entry point</description>
+</snippet>

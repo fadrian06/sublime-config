@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>${1}</title>
+		<link rel="icon" href="$2" />
+		<link rel="stylesheet" href="$3" />
+	</head>
+	<body>
+		$4
+		<script src="$5"></script>
+	</body>
+</html>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>plantilla</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic - source.php, text.html.handlebars, text.html.blade, embedding.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+GROUP BY ${1:column_name(s)}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>GROUP-BY</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>GROUP BY column_name(s)</description>
+</snippet>
