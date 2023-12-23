@@ -1,21 +1,21 @@
 // Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
 {
 	"disabled_capabilities": {
-		"documentFormattingProvider": true,
+		"documentFormattingProvider": true
 	},
 	"initializationOptions": {
 		"completionDisableFilterText": false,
 		"locale": "es",
 		"preferences": {
 			"lazyConfiguredProjectsFromExternalProject": true,
-			"quotePreference": "single",
-		},
+			"quotePreference": "single"
+		}
 	},
 	"settings": {
 		"diagnostics.ignoredCodes": [],
 		"implicitProjectConfiguration.checkJs": false,
 		"implicitProjectConfiguration.strictFunctionTypes": true,
-		"implicitProjectConfiguration.strictNullChecks": true,
+		"implicitProjectConfiguration.strictNullChecks": true
 	},
-	"enabled": true,
+	"enabled": true
 }

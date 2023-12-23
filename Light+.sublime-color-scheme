@@ -30,7 +30,7 @@
   },
   "globals": {
     "active_guide": "var(blue5)",
-    "stack_guide": "color(var(blue5) alpha(0.5))",
+    "stack_guide": "color(var(blue5) alpha(0.5))"
   },
   "rules": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "scope": "markup.raw.inline.markdown, markup.raw.code-fence.(php|python).markdown-gfm",
-      "background": "rgba(0,0,0,.05)",
+      "background": "rgba(0,0,0,.05)"
     },
     {
       "scope": "meta.function-call variable.function",

@@ -13,6 +13,6 @@
 		"clangd.limit-results": 0,
 		"clangd.pch-storage": "memory",
 		"clangd.enable-config": true,
-		"clangd.pretty": true,
+		"clangd.pretty": true
 	}
 }

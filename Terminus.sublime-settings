@@ -1,6 +1,6 @@
 {
   "default_config": {
-    "windows": "Git CMD",
+    "windows": "Git CMD"
     // "windows": "Git Bash"
   },
   "shell_configs": [
@@ -11,7 +11,7 @@
       "enable": true,
       "platforms": [
         "windows"
-      ],
+      ]
     },
     {
       "name": "PowerShell",
@@ -20,7 +20,7 @@
       "enable": true,
       "platforms": [
         "windows"
-      ],
+      ]
     },
     {
       "name": "Git CMD",
@@ -28,7 +28,7 @@
       "enable": true,
       "platforms": [
         "windows"
-      ],
+      ]
     },
     {
       "name": "Git Bash",

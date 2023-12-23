@@ -81,7 +81,6 @@
 		"licosysv2": {
 			"type": "sqlite",
 			"database": "C:/xampp/htdocs/proyectos/licosys/licosys.db"
-		},
-
+		}
 	}
 }

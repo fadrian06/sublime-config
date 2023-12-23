@@ -6,19 +6,19 @@
 	],
 	"preferred_color_picker_mode": "srgb",
 	"user_color_rules": [
-		{
-			"name": "JSON",
-			"colol_class": "css-level-4",
-			"scanning": [
-				"meta.mapping.value.json string.quoted.double.json"
-			]
-		}
+		// {
+		// 	"name": "JSON",
+		// 	"colol_class": "css-level-4",
+		// 	"scanning": [
+		// 		"meta.mapping.value.json string.quoted.double.json"
+		// 	]
+		// }
 	],
 	"user_color_classes": {
 		"css-level-4": {
 			"filters": [
 				"srgb",
-				"hsl",
+				"hsl"
 			],
 			"output": [
 				{

@@ -15,7 +15,7 @@
 		"salmon"         : "#f29668",
 		"light-salmon"   : "#e6b672",
 		"dark-pink"      : "#d95757",
-		"purple"         : "#c594c5",
+		"purple"         : "#c594c5"
 	},
 	"globals": {
     "active_guide": "var(light-blue)",
@@ -266,6 +266,6 @@
 		{
 			"scope": "support.class.component.astro",
 			"foreground": "var(light-orange)"
-		},
+		}
 	]
 }

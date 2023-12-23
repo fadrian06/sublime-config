@@ -5,7 +5,7 @@
 		"xml.codeLens.enabled": true,
 		"xml.format.emptyElements": "collapse",
 		"xml.format.enforceQuoteStyle": "preferred",
-		"xml.format.splitAttributes": "splitNewLine",
+		"xml.format.splitAttributes": "splitNewLine"
 	},
-	"enabled": true,
+	"enabled": true
 }

@@ -2,7 +2,7 @@
 {
 	"enabled": true,
 	"settings": {
-		"rome.rename": true,
+		"rome.rename": true
 	},
-	"selector": "source.js | source.ts | source.jsx | source.tsx | source.js.jsx | source.js.react | source.ts.react",
+	"selector": "source.js | source.ts | source.jsx | source.tsx | source.js.jsx | source.js.react | source.ts.react"
 }

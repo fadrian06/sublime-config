@@ -231,6 +231,6 @@
 			"ctrl+alt+v"
 		],
 		"command": "svg_preview"
-	},
+	}
 	/*=====  End of SVG PREVIEW  ======*/
 ]

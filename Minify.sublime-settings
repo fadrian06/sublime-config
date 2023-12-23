@@ -3,5 +3,5 @@
 	"cleancss_options": "--with-rebase",
 	"css_source_map": true,
 	"uglifyjs_options": "--no-annotations --v8 --webkit",
-	"source_map": true,
+	"source_map": true
 }

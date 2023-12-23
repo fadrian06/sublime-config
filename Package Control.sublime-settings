@@ -59,7 +59,7 @@
 		"Tabnine",
 		"Terminus",
 		"Transparency",
-		"Visual Studio Code Plus Scheme",
+		"Visual Studio Code Plus Scheme"
 	],
 	"bootstrapped": true,
 	"repositories": [
@@ -70,5 +70,5 @@
 	],
 	"in_process_packages":
 	[
-	],
+	]
 }

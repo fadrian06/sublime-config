@@ -129,7 +129,7 @@
 		"UpgradeToPreg", /* Upgrade ereg* calls to preg* */
 		"WPResizeSpaces",
 		// "WordWrap", /* Word wrap at 80 columns. */
-		"WrongConstructorName", /* Update old constructor names into new ones. http://php.net/manual/en/language.oop5.decon.php */
+		"WrongConstructorName" /* Update old constructor names into new ones. http://php.net/manual/en/language.oop5.decon.php */
 		// "YodaComparisons" /* Execute Yoda Comparisons. */
 	]
 }

@@ -2,6 +2,6 @@
 	"extensions":
 	[
 		".env",
-		".minttyrc",
-	],
+		".minttyrc"
+	]
 }

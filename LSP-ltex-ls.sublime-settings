@@ -9,5 +9,5 @@
 		"ltex.ltex-ls.logLevel": "fine",
 		"ltex.sentenceCacheSize": 2000,
 		"ltex.trace.server": "off"
-	},
+	}
 }

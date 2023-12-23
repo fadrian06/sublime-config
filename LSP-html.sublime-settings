@@ -13,5 +13,5 @@
 		"html.format.wrapAttributes": "auto",
 		"html.hover.references": false
 	},
-	"selector": "text.html.basic, text.html.markdown, embedding.php, text.html.blade, text.html.twig, text.html.smarty",
+	"selector": "text.html.basic, text.html.markdown, embedding.php, text.html.blade, text.html.twig, text.html.smarty"
 }
