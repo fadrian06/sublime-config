@@ -15,7 +15,7 @@
   "auto_complete_delay": 0,
   "auto_complete_enable_plugins": true,
   "auto_complete_include_snippets": true,
-  "auto_complete_include_snippets_when_typing": true,
+  "auto_complete_include_snippets_when_typing": false,
   "auto_complete_preserve_order": "some",
   "auto_complete_selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
   "auto_complete_size_limit": 4194304,
@@ -24,11 +24,11 @@
   "auto_complete_triggers": [
     {
       "characters": "<",
-      "selector": "text.html, text.xml",
+      "selector": "text.html, text.xml"
     },
     {
       "rhs_empty": true,
-      "selector": "punctuation.accessor",
+      "selector": "punctuation.accessor"
     }
   ],
   "auto_complete_use_history": true,
@@ -192,7 +192,7 @@
     "Tabnine",
     "TCL",
     "Textile",
-    "Vintage",
+    "Vintage"
   ],
   "ignored_snippets": [
     "C++/*"
@@ -219,7 +219,7 @@
   "line_padding_bottom": 0,
   "line_padding_top": 0,
   "lsp_code_actions_on_save": {
-    "source.fixAll": true,
+    "source.fixAll": true
   },
   "lsp_format_on_save": false,
   "margin": 0,
@@ -319,5 +319,5 @@
   /////////
   "ui_native_titlebar": false, // use native titlebars on macOs
   "ui_separator": true, // separators between panels
-  "ui_wide_scrollbars": true, // wider scrollbars
+  "ui_wide_scrollbars": true // wider scrollbars
 }
