@@ -32,10 +32,7 @@
     "intelephense.environment.includePaths": [],
     "intelephense.environment.phpVersion": "8.2.14",
     "intelephense.environment.shortOpenTag": false,
-    "intelephense.files.associations": [
-      "*.php",
-      "*.phtml"
-    ],
+    "intelephense.files.associations": ["*.php", "*.phtml"],
     "intelephense.files.maxSize": 1000000,
     "intelephense.format.braces": "k&r",
     "intelephense.format.enable": true,
@@ -64,9 +61,7 @@
     "intelephense.licenceKey": "",
     "intelephense.phpdoc.classTemplate": {
       "summary": "\\$1",
-      "tags": [
-        "@package \\${1:\\$SYMBOL_NAMESPACE}"
-      ]
+      "tags": ["@package \\${1:\\$SYMBOL_NAMESPACE}"]
     },
     "intelephense.phpdoc.functionTemplate": {
       "summary": "\\$1",
@@ -78,16 +73,10 @@
     },
     "intelephense.phpdoc.propertyTemplate": {
       "summary": "\\$1",
-      "tags": [
-        "@var \\${1:\\$SYMBOL_TYPE}"
-      ]
+      "tags": ["@var \\${1:\\$SYMBOL_TYPE}"]
     },
-    "intelephense.references.exclude": [
-      "**/vendor/**"
-    ],
-    "intelephense.rename.exclude": [
-      "**/vendor/**"
-    ],
+    "intelephense.references.exclude": ["**/vendor/**"],
+    "intelephense.rename.exclude": ["**/vendor/**"],
     "intelephense.stubs": [
       "Core",
       "standard",
@@ -112,7 +101,8 @@
       "json",
       "hash",
       "filter",
-      "session"
+      "session",
+      "pcre"
     ]
   }
 }
