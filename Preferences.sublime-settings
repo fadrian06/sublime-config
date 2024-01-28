@@ -112,7 +112,7 @@
     ".DS_Store",
     "*.class",
     "*.psd",
-    "*.db",
+    // "*.db",
     "*.sublime-workspace"
   ],
   "file_tab_style": "rounded",
@@ -138,6 +138,7 @@
   "font_face": "JetBrainsMono NF",
   "font_options": [
     // "dwrite_cleartype_natural",
+    // "dwrite_cleartype_classic"
     // "ss01",
     // "ss02"
   ],
@@ -187,7 +188,6 @@
     "Scala",
     "SublimeLinter-contrib-phpstan",
     "SublimeLinter-php",
-    "SublimeLinter-phpcs",
     "SublimeLinter-phpmd",
     "Tabnine",
     "TCL",
@@ -276,7 +276,7 @@
   "show_indentation": true,
   "show_legacy_color_schemes": true,
   "show_line_column": "enabled",
-  "show_line_endings": false,
+  "show_line_endings": true,
   "show_navigation_bar": true,
   "show_panel_on_build": true,
   "show_project_first": false,
