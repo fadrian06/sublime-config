@@ -188,6 +188,7 @@
     "Scala",
     "SublimeLinter-contrib-phpstan",
     "SublimeLinter-php",
+    "SublimeLinter-phpcs",
     "SublimeLinter-phpmd",
     "Tabnine",
     "TCL",
