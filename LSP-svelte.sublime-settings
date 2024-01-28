@@ -1,0 +1,29 @@
+// Settings in here override those in "LSP-svelte/LSP-svelte.sublime-settings"
+{
+  "initializationOptions": {
+    "configuration": {
+      "svelte": {
+        "plugin": {
+          "css": {
+            "documentColors": {
+              "enable": false
+            }
+          },
+          "svelte": {
+            "useNewTransformation": true
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "svelte.plugin.svelte.format.config.printWidth": 80,
+    "svelte.plugin.svelte.format.config.singleQuote": true,
+    "svelte.plugin.svelte.format.config.svelteAllowShorthand": true,
+    "svelte.plugin.svelte.format.enable": true,
+    "svelte.plugin.svelte.format.config.svelteSortOrder": "options-scripts-markup-styles",
+    "svelte.plugin.svelte.format.config.svelteStrictMode": false,
+    "svelte.plugin.svelte.format.config.svelteBracketNewLine": true,
+    "svelte.plugin.svelte.format.config.svelteIndentScriptAndStyle": true
+  }
+}
