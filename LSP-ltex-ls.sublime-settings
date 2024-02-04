@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "settings": {
     "ltex.checkFrequency": "save",
     "ltex.clearDiagnosticsWhenClosingFile": true,
@@ -17,7 +17,7 @@
     "ltex.dictionary": {
       "en-US": [
         "PHPStan"
-      ]
+      ],
     },
   },
 }

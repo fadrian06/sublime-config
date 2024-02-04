@@ -10,6 +10,9 @@
     "stylelint": {
       "selector": "source.css, source.stylus"
     },
+    "eslint": {
+      "selector": "source.js, source.ts, source.tsx, source.jsx, text.html.svelte"
+    },
     "gcc": {
       "filter_errors": [
         "-Wreturn-type"

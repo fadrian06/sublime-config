@@ -2,12 +2,12 @@
 {
 	"settings": {
 		"codeAction.disableRuleComment": {
-			"enable": false
+			"enable": true
 		},
 		"codeAction.showDocumentation": {
 			"enable": false
 		}
 	},
 	"selector": "source.js | source.ts | source.jsx | source.tsx | source.js.jsx | source.js.react | source.ts.react | text.html.vue",
-	"enabled": true
+	"enabled": true,
 }
