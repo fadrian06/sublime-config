@@ -69,6 +69,18 @@
 				}
 			},
 			{
+				"caption": "Draw.io",
+				"id": "side-bar-files-open-with-drawio",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "C:/Users/Franyer/scoop/apps/draw.io/current/draw.io.exe",
+					"extensions": "drawio",
+					"args": [],
+					"multiple": false
+				}
+			},
+			{
 				"caption": "DB Browser",
 				"id": "side-bar-files-open-with-dbbrowser",
 				"command": "side_bar_files_open_with",

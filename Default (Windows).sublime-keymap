@@ -144,7 +144,7 @@
 	// Run Code Action
 	{
 		"keys": [
-			"ctrl+alt+k"
+			"ctrl+alt+l"
 		],
 		"command": "lsp_code_actions",
 		"context": [
