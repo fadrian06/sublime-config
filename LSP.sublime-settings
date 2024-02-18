@@ -1,7 +1,7 @@
 // Settings in here override those in "LSP/LSP.sublime-settings"
 {
   "lsp_code_actions_on_save": {
-    "source.fixAll.eslint": true
+    "source.fixAll": true
   },
   "show_diagnostics_in_view_status": false,
   "show_diagnostics_annotations_severity_level": 4,

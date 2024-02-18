@@ -212,7 +212,14 @@
 			"foreground": "var(dark-pink)"
 		},
 		{
-			"scope": "entity.name.tag.js",
+			"scope": "source.jsx meta.function-call.arguments.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.component.js",
+			"foreground": "var(light-orange)"
+		},
+		////////////
+		// SVELTE //
+		////////////
+		{
+			"scope": "text.html.svelte meta.tag.component.any.html entity.name.tag.inline.form.html",
 			"foreground": "var(light-orange)"
 		},
 		//////////////

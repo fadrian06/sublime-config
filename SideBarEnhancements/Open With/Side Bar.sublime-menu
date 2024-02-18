@@ -42,6 +42,18 @@
 				}
 			},
 			{
+				"caption": "Firefox Developer",
+				"id": "side-bar-files-open-with-firefox-developer",
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "C:/ProgramData/scoop/apps/firefox-developer/current/firefox.exe",
+					"extensions": "html",
+					"args": [],
+					"multiple": false
+				}
+			},
+			{
 				"caption": "-"
 			},
 			{
