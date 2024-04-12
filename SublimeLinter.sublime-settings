@@ -36,6 +36,19 @@
           ]
         }
       ]
+    },
+    "htmlhint": {
+      "args": [
+        "--config",
+        "C:/.htmlhintrc"
+      ]
+    },
+    "htmltidy": {
+      "args": [
+        "-config",
+        "C:\\.tidyrc"
+      ],
+      "disable": true
     }
   },
   "styles": [
