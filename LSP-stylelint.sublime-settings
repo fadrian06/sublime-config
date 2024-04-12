@@ -9,4 +9,5 @@
     ],
   },
   "selector": "source.css | source.scss | source.less | text.html.vue",
+  "enabled": false,
 }

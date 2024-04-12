@@ -1,11 +1,11 @@
 // Settings in here override those in "LSP-lemminx/LSP-lemminx.sublime-settings"
 {
-	"selector": "text.plist | text.xml - text.xml.xsl",
-	"settings": {
-		"xml.codeLens.enabled": true,
-		"xml.format.emptyElements": "collapse",
-		"xml.format.enforceQuoteStyle": "preferred",
-		"xml.format.splitAttributes": "splitNewLine"
-	},
-	"enabled": true
+  "selector": "text.plist | text.xml - text.xml.xsl",
+  "settings": {
+    "xml.codeLens.enabled": true,
+    "xml.format.emptyElements": "collapse",
+    "xml.format.enforceQuoteStyle": "preferred",
+    "xml.format.splitAttributes": false
+  },
+  "enabled": true,
 }

@@ -1,6 +1,6 @@
 // Settings in here override those in "LSP-rome/LSP-rome.sublime-settings"
 {
-	"enabled": true,
+	"enabled": false,
 	"settings": {
 		"rome.rename": true
 	},
