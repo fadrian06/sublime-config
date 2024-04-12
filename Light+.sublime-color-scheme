@@ -64,6 +64,14 @@
     {
       "scope": "constant.other.placeholder, keyword.operator",
       "foreground": "var(red2)"
+    },
+    {
+      "scope": "meta.toc-list.id.html",
+      "font_style": "bold underline"
+    },
+    {
+      "scope": "entity.name.other.group.regexp",
+      "foreground": "var(blue5)"
     }
   ]
 }
