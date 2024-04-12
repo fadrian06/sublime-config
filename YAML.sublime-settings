@@ -1,10 +1,11 @@
 {
   "extensions": [
-    "neon"
+    "neon",
+    ".tidyrc",
   ],
   "indent_guide_options": [
     "draw_normal",
-    "draw_active",
+    // "draw_active",
     "draw_active_single",
     "solid"
   ]
