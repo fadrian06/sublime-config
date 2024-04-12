@@ -15,7 +15,8 @@
 		"salmon"         : "#f29668",
 		"light-salmon"   : "#e6b672",
 		"dark-pink"      : "#d95757",
-		"purple"         : "#c594c5"
+		"purple"         : "#c594c5",
+		"grey"           : "#acb6bf8c"
 	},
 	"globals": {
     "active_guide": "var(light-blue)",
@@ -212,7 +213,7 @@
 			"foreground": "var(dark-pink)"
 		},
 		{
-			"scope": "source.jsx meta.function-call.arguments.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.component.js",
+			"scope": "source.jsx meta.function-call.arguments.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.component.js, source.tsx meta.export.js meta.function.js meta.block.js meta.group.js meta.jsx.js meta.tag.name.js entity.name.tag.component.js",
 			"foreground": "var(light-orange)"
 		},
 		////////////
@@ -245,7 +246,7 @@
 		////////////
 		{
 			"scope": "comment.block.documentation.python",
-			"foreground": "var(green)",
+			"foreground": "var(grey)",
 			"font_style": ""
 		},
 		//////////////
