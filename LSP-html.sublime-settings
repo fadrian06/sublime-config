@@ -1,17 +1,20 @@
 // Settings in here override those in "LSP-html/LSP-html.sublime-settings"
 {
-	"disabled_capabilities": {
-		"colorProvider": true,
-		"documentLinkProvider": true
-	},
-	"settings": {
-		"html.format.extraLiners": "",
-		"html.format.indentHandlebars": true,
-		"html.format.indentInnerHtml": true,
-
-		"html.format.templating": true,
-		"html.format.wrapAttributes": "auto",
-		"html.hover.references": false
-	},
-	"selector": "text.html.basic, text.html.markdown, embedding.php, text.html.blade, text.html.twig, text.html.smarty"
+  "disabled_capabilities": {
+    "colorProvider": true,
+    "documentLinkProvider": true,
+    "definitionProvider": true,
+    "referencesProvider": true
+  },
+  "settings": {
+    "html.format.extraLiners": "",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "html.format.wrapAttributes": "auto",
+    "html.hover.references": false,
+    "html.customData": [],
+    "css.customData": [],
+  },
+  "selector": "text.html.basic, text.html.markdown, text.html.blade, text.html.twig, text.html.smarty"
 }
