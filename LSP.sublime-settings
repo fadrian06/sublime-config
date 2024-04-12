@@ -6,5 +6,16 @@
   "show_diagnostics_in_view_status": false,
   "show_diagnostics_annotations_severity_level": 4,
   "show_inlay_hints": false,
-  "semantic_highlighting": true
+  "semantic_highlighting": true,
+  "clients": {
+    "phpactor": {
+      "command": [
+        "C:/xampp/php/php",
+        "C:/bin/phpactor/vendor/bin/phpactor",
+        "language-server"
+      ],
+      "enabled": false,
+      "selector": "source.php, embedding.php",
+    },
+  },
 }
