@@ -179,7 +179,6 @@
     "Objective-C",
     "OCaml",
     "Pascal",
-    "Phpactor",
     "R",
     "Rails",
     "RestructuredText",
@@ -187,12 +186,9 @@
     "Rust",
     "Scala",
     "SublimeLinter-contrib-htmlhint",
-    "SublimeLinter-contrib-phpstan",
     "SublimeLinter-eslint",
     "SublimeLinter-phpcs",
-    "SublimeLinter-phpmd",
     "SublimeLinter-stylelint",
-    "Tabnine",
     "TCL",
     "Textile",
     "Vintage",
@@ -371,4 +367,5 @@
   // - cmd
   // - powershell
   "phpunit.strategy": "sublime",
+  "font_size": 11,
 }

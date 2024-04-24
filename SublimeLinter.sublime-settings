@@ -49,6 +49,9 @@
         "C:\\.tidyrc"
       ],
       "disable": true
+    },
+    "phpmd": {
+      "disable": true
     }
   },
   "styles": [

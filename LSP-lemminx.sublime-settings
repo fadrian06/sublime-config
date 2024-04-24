@@ -5,7 +5,12 @@
     "xml.codeLens.enabled": true,
     "xml.format.emptyElements": "collapse",
     "xml.format.enforceQuoteStyle": "preferred",
-    "xml.format.splitAttributes": false
+    "xml.format.splitAttributes": "preserve"
   },
   "enabled": true,
+  "env": {
+    "JAVA_HOME": "C:\\Program Files\\Java\\jre-1.8"
+  },
+  "server_binary": false,
+
 }
