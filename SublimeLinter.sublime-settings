@@ -52,6 +52,9 @@
     },
     "phpmd": {
       "disable": true
+    },
+    "php": {
+      "disable": true
     }
   },
   "styles": [

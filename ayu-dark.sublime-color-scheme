@@ -182,14 +182,9 @@
 		///////////
 		// BLADE //
 		///////////
-		// {
-		// 	"name": "Etiquetas BLADE",
-		// 	"scope": "punctuation.section.embedded.(begin|end).blade",
-		// 	"foreground": "var(dark-pink)"
-		// },
 		{
-			"scope": "variable.control.import.include.pug",
-			"foreground": "var(light-green)"
+			"scope": "entity.name.tag.other.html",
+			"foreground": "var(light-orange)"
 		},
 		/////////
 		// PUG //

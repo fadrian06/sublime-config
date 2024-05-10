@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"db"
-	]
+		"db",
+		"sqlite",
+	],
 }

@@ -35,7 +35,6 @@
 		"LSP-jdtls",
 		"LSP-json",
 		"LSP-ltex-ls",
-		"LSP-lua",
 		"LSP-marksman",
 		"LSP-pylsp",
 		"LSP-pyright",
@@ -83,5 +82,8 @@
 		"https://github.com/Microsoft/TypeScript-Sublime-Plugin.git",
 		"https://github.com/fadrian06/subl-comment-snippets",
 		"https://github.com/titoBouzout/Dictionaries"
+	],
+	"in_process_packages":
+	[
 	],
 }
