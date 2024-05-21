@@ -8,6 +8,7 @@
   "show_inlay_hints": false,
   "semantic_highlighting": true,
   "popup_max_characters_width": 80,
+  "refactoring_auto_save": "always",
   "clients": {
     "phpactor": {
       "command": [
