@@ -66,7 +66,7 @@
   "close_find_after_find_all": true,
   "close_find_after_replace_all": true,
   "close_windows_when_empty": false,
-  "color_scheme": "Light+.sublime-color-scheme",
+  "color_scheme": "ayu-dark.sublime-color-scheme",
   "console_max_history_lines": 3000,
   "control_character_style": "names",
   "copy_with_empty_selection": true,
@@ -292,7 +292,7 @@
   "syntax_detection_size_limit": 16777216,
   "tab_completion": true,
   "tab_size": 2,
-  "theme": "Adaptive.sublime-theme",
+  "theme": "ayu-dark.sublime-theme",
   "theme_font_options": [],
   "themed_title_bar": true,
   "translate_tabs_to_spaces": true,
@@ -335,7 +335,9 @@
   "phpunit.font_size": null,
   // Commands to run when a file is saved.
   // Example: ["phpunit_test_file"]
-  "phpunit.on_post_save": [/*"phpunit_test_file"*/],
+  "phpunit.on_post_save": [
+    /*"phpunit_test_file"*/
+  ],
   // Command-line options to pass to PHPUnit.
   // https://phpunit.de/manual/current/en/textui.html#textui.clioptions
   // e.g. `{"no-coverage": true, "verbose": true, "colors=never": true}`
