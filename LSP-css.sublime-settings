@@ -2,6 +2,8 @@
 {
 	"disabled_capabilities": {
 		"colorProvider": true,
+		"hoverProvider": true,
+		"documentLinkProvider": true
 	},
 	"settings": {
 		"css.lint.boxModel": "warning",
