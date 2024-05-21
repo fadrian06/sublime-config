@@ -194,7 +194,9 @@
     "Vintage",
   ],
   "ignored_snippets": [
-    "C++/*"
+    "C++/*",
+    "PHP/*",
+    "HTML/*"
   ],
   "inactive_sheet_dimming": true,
   "indent_guide_options": [
