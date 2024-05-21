@@ -255,10 +255,7 @@
   "ruler_style": "solid",
   "ruler_width": 1,
   "rulers": [
-    // [
-    //   80,
-    //   "solid"
-    // ]
+    80
   ],
   "save_on_focus_lost": true,
   "scroll_context_lines": 0,
