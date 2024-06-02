@@ -18,5 +18,6 @@
   },
   "settings": {
     "svelte.plugin.svelte.format.config.singleQuote": true,
-  }
+  },
+  "enabled": false,
 }
