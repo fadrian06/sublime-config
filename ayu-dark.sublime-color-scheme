@@ -218,6 +218,10 @@
 			"scope": "text.html.svelte meta.tag.component.any.html entity.name.tag.inline.form.html",
 			"foreground": "var(light-orange)"
 		},
+		{
+			"scope": "text.html.svelte meta.tag.other.html entity.name.tag.other.html",
+			"foreground": "var(sky-blue)"
+		},
 		//////////////
 		// MUSTACHE //
 		//////////////

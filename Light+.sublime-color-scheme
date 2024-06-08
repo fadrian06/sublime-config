@@ -72,6 +72,10 @@
     {
       "scope": "entity.name.other.group.regexp",
       "foreground": "var(blue5)"
+    },
+    {
+      "scope": "meta.tag.component.any.html entity.name.tag.inline.form.html",
+      "foreground": "var(blue5)"
     }
   ]
 }

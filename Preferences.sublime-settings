@@ -271,7 +271,7 @@
   "show_git_status": true,
   "show_git_status_in_status_bar": true,
   "show_indentation": true,
-  "show_legacy_color_schemes": false,
+  "show_legacy_color_schemes": true,
   "show_line_column": "enabled",
   "show_line_endings": true,
   "show_navigation_bar": true,
@@ -368,4 +368,26 @@
   // - powershell
   "phpunit.strategy": "sublime",
   "font_size": 11,
+  /////////////
+  // PREDAWN //
+  /////////////
+  // Panel Options
+  "predawn_findreplace_small": true,
+  "predawn_quick_panel_small": true,
+
+  // Sidebar Options
+  "predawn_sidebar_arrows": false,
+  "predawn_sidebar_folder_gray": false,
+  "predawn_sidebar_large": false,
+  "predawn_sidebar_medium": false,
+  "predawn_sidebar_narrow": true,
+  "predawn_sidebar_small": false,
+  "predawn_sidebar_xlarge": false,
+  "predawn_sidebar_xsmall": false,
+
+  // Tabs Options
+  "predawn_tabs_active_underline": true,
+  "predawn_tabs_large": false,
+  "predawn_tabs_medium": false,
+  "predawn_tabs_small": true,
 }

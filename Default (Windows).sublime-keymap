@@ -231,6 +231,16 @@
 			"ctrl+alt+v"
 		],
 		"command": "svg_preview"
-	}
+	},
 	/*=====  End of SVG PREVIEW  ======*/
+	/*=============================================
+	=            MARKDOWN LIVE PREVIEW            =
+	=============================================*/
+	{
+		"keys": [
+			"alt+m"
+		],
+		"command": "open_markdown_preview"
+	}
+	/*=====  End of MARKDOWN LIVE PREVIEW  ======*/
 ]
