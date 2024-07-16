@@ -1,6 +1,6 @@
 {
-	"extensions":
-	[
-		"conv"
+	"extensions": [
+		"conv",
+		".prettierignore",
 	],
 }
