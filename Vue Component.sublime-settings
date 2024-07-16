@@ -1,6 +1,6 @@
 {
-	"extensions":
-	[
+	"extensions": [
 		"vue"
-	]
+	],
+	"lsp_format_on_save": true,
 }
