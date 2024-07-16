@@ -5,19 +5,9 @@
     "ltex.clearDiagnosticsWhenClosingFile": true,
     "ltex.completionEnabled": true,
     "ltex.diagnosticSeverity": "information",
-    "ltex.language": "en-US",
+    "ltex.language": "auto",
     "ltex.ltex-ls.logLevel": "fine",
     "ltex.sentenceCacheSize": 2000,
     "ltex.trace.server": "off",
-    "ltex.disabledRules": {
-      "en-US": [
-        "WHITESPACE_RULE"
-      ],
-    },
-    "ltex.dictionary": {
-      "en-US": [
-        "PHPStan"
-      ],
-    },
   },
 }
