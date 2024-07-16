@@ -81,6 +81,7 @@
 		"Transparency",
 		"Visual Studio Code Plus Scheme",
 		"Vue Syntax Highlight",
+		"Zukan Icon Theme",
 	],
 	"bootstrapped": true,
 	"repositories": [
@@ -88,5 +89,6 @@
 		"https://github.com/fadrian06/subl-comment-snippets",
 		"https://github.com/titoBouzout/Dictionaries"
 	],
-	"in_process_packages": [],
+	"in_process_packages": [
+	],
 }
