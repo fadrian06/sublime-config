@@ -37,6 +37,7 @@
 		"LSP-lemminx",
 		"LSP-ltex-ls",
 		"LSP-marksman",
+		"LSP-prisma",
 		"LSP-pylsp",
 		"LSP-pyright",
 		"LSP-rome",
@@ -54,6 +55,7 @@
 		"PHPUnitKit",
 		"PlainTasks",
 		"PowerShell",
+		"Prisma",
 		"QuickView",
 		"REST Client",
 		"Sass",
@@ -64,6 +66,7 @@
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-contrib-phpstan",
 		"SublimeLinter-eslint",
 		"SublimeLinter-gcc",
 		"SublimeLinter-php",
@@ -85,7 +88,5 @@
 		"https://github.com/fadrian06/subl-comment-snippets",
 		"https://github.com/titoBouzout/Dictionaries"
 	],
-	"in_process_packages":
-	[
-	],
+	"in_process_packages": [],
 }
