@@ -11,7 +11,7 @@
     "html.format.indentHandlebars": true,
     "html.format.indentInnerHtml": true,
     "html.format.templating": true,
-    "html.format.wrapAttributes": "auto",
+    "html.format.wrapAttributes": "preserve",
     "html.hover.references": false,
     "html.customData": [],
     "css.customData": [],
