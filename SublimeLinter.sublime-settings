@@ -21,7 +21,8 @@
       "selector": "source.c - text.html.markdown"
     },
     "phpstan": {
-      "lint_mode": "load_save"
+      "lint_mode": "load_save",
+      "disable": true
     },
     "phpcs": {
       "args": [
