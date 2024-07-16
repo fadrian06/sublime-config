@@ -23,6 +23,21 @@
 		],
 		"command": "arithmetic"
 	},
+	{
+		"keys": [
+			"alt+b"
+		],
+		"command": "show_panel",
+		"args": {
+			"panel": "output.exec"
+		},
+		"context": [
+			{
+				"key": "panel_visible",
+				"operand": false
+			}
+		]
+	},
 	/*=====  End of SUBLIME  ======*/
 	/*=============================
 	=            EMMET            =
