@@ -76,6 +76,10 @@
     {
       "scope": "meta.tag.component.any.html entity.name.tag.inline.form.html",
       "foreground": "var(blue5)"
+    },
+    {
+      "scope": "entity.name.tag.component.js",
+      "foreground": "var(blue5)"
     }
   ]
 }
