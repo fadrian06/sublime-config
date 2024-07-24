@@ -42,7 +42,6 @@
 		"LSP-pylsp",
 		"LSP-pyright",
 		"LSP-rome",
-		"LSP-ruff",
 		"LSP-stylelint",
 		"LSP-svelte",
 		"LSP-tailwindcss",
