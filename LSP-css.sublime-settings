@@ -23,7 +23,27 @@
 		],
 		"css.lint.zeroUnits": "warning",
 		"css.format.preserveNewLines": false,
-		"css.lint.unknownAtRules": "ignore"
+		"css.lint.unknownAtRules": "ignore",
+		"css.format.enable": true,
+		"less.format.enable": true,
+		"scss.format.enable": true,
+		"css.format.braceStyle": "collapse",
+		"less.format.braceStyle": "collapse",
+		"scss.format.braceStyle": "collapse",
+		"css.format.newlineBetweenRules": true,
+		"css.format.newlineBetweenSelectors": true,
+		"less.format.newlineBetweenRules": true,
+		"less.format.newlineBetweenSelectors": true,
+		"less.format.preserveNewLines": false,
+		"scss.format.newlineBetweenRules": true,
+		"scss.format.newlineBetweenSelectors": true,
+		"scss.format.preserveNewLines": false,
+		"css.format.maxPreserveNewLines": null,
+		"css.format.spaceAroundSelectorSeparator": true,
+		"less.format.maxPreserveNewLines": null,
+		"less.format.spaceAroundSelectorSeparator": true,
+		"scss.format.maxPreserveNewLines": null,
+		"scss.format.spaceAroundSelectorSeparator": true
 	},
 	"enabled": true
 }
