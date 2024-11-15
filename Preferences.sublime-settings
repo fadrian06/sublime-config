@@ -161,7 +161,6 @@
   "hot_exit": "always",
   "hot_exit_projects": true,
   "ignored_packages": [
-    "A File Icon",
     "ActionScript",
     "AppleScript",
     "ASP",
@@ -193,6 +192,7 @@
     "TCL",
     "Textile",
     "Vintage",
+    "Zukan Icon Theme",
   ],
   "ignored_snippets": [
     "C++/*",
@@ -212,7 +212,7 @@
   "index_exclude_patterns": [
     "*.log"
   ],
-  "index_files": false,
+  "index_files": true,
   "index_skip_unknown_extensions": true,
   "index_workers": 0,
   "light_color_scheme": "Breakers.sublime-color-scheme",
