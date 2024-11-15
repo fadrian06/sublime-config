@@ -1,5 +1,6 @@
 {
   "installed_packages": [
+    "A File Icon",
     "AdvancedNewFile",
     "Alignment",
     "All Autocomplete",
@@ -79,14 +80,18 @@
     "Visual Studio Code Plus Scheme",
     "Vue Syntax Highlight",
     "Zukan Icon Theme",
-    "SublimeLinter-eslint",
-    "Zukan Icon Theme",
-    "Terminus"
   ],
   "bootstrapped": true,
   "repositories": [
     "https://github.com/Microsoft/TypeScript-Sublime-Plugin.git",
     "https://github.com/fadrian06/subl-comment-snippets",
     "https://github.com/titoBouzout/Dictionaries"
-  ]
+  ],
+  "in_process_packages":
+  [
+  ],
+  "ignore_vcs_packages": [
+    "Terminus"
+  ],
+
 }
