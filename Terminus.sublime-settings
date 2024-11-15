@@ -1,6 +1,6 @@
 {
   "default_config": {
-    "windows": "Git CMD"
+    "windows": "Git CMD",
     // "windows": "Command Prompt"
     // "windows": "Git Bash"
   },
@@ -25,7 +25,7 @@
     },
     {
       "name": "Git CMD",
-      "cmd": "C:/Users/Franyer/scoop/apps/git/current/git-cmd.exe",
+      "cmd": "C:/ProgramData/scoop/apps/git/current/git-cmd.exe",
       "enable": true,
       "platforms": [
         "windows"
@@ -33,12 +33,12 @@
     },
     {
       "name": "Git Bash",
-      "cmd": "C:/Users/Franyer/scoop/apps/git/current/bin/bash.exe",
+      "cmd": "C:/ProgramData/scoop/apps/git/current/bin/bash.exe",
       "enable": true,
       "platforms": [
         "windows"
       ],
     }
   ],
-  "theme": "hardcore",
+  "theme": "cobalt2",
 }
