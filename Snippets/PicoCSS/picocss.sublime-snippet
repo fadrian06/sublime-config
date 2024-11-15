@@ -5,9 +5,9 @@
     More: https://www.sublimetext.com/docs/completions.html#snippets
 -->
 <content><![CDATA[
-<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.classless.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.fluid.classless.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.min.css" />
 ]]></content>
 <tabTrigger>picocss</tabTrigger>
 <scope>text.html.basic - source.php, embedding.php</scope>

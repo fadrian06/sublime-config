@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
 <!DOCTYPE html>
-<html lang="es">
+<html>
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="only dark" />
 		<title>${1}</title>
 		<link rel="icon" href="$2" />
 		<link rel="stylesheet" href="$3" />
@@ -17,5 +18,5 @@
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>plantilla</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.basic - source.php, text.html.handlebars, text.html.blade, embedding.php</scope>
+	<scope>text.html.basic - source.php, text.html.handlebars, text.html.blade, embedding.php, source.astro</scope>
 </snippet>
