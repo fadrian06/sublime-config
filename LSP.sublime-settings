@@ -5,7 +5,7 @@
   },
   "show_diagnostics_in_view_status": false,
   "show_diagnostics_annotations_severity_level": 4,
-  "show_inlay_hints": false,
+  "show_inlay_hints": true,
   "semantic_highlighting": true,
   "popup_max_characters_width": 80,
   "refactoring_auto_save": "always",
