@@ -6,5 +6,6 @@
 	  // "draw_active",
 	  "draw_active_single",
 	  "solid"
-	]
+	],
+	"lsp_format_on_save": true
 }

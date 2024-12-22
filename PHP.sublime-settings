@@ -3,5 +3,6 @@
   "auto_complete_include_snippets_when_typing": false,
   "extensions": [
     "php",
+    "stub",
   ],
 }

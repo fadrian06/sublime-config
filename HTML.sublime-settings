@@ -1,4 +1,5 @@
 // These settings override both User and Default settings for the HTML syntax
 {
   "disable_default_completions": true,
+  "lsp_format_on_save": true
 }

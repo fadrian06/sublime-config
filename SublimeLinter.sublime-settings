@@ -9,7 +9,7 @@
   "linters": {
     "stylelint": {
       "selector": "source.css, source.stylus",
-      "disable": true
+      "disable": false
     },
     "eslint": {
       "selector": "source.js, source.ts, source.tsx, source.jsx, text.html.svelte"
@@ -22,7 +22,10 @@
     },
     "phpstan": {
       "lint_mode": "load_save",
-      "disable": true
+      "disable": false,
+      "args": [
+        // "-lmax"
+      ]
     },
     "phpcs": {
       "args": [
@@ -50,13 +53,23 @@
         "-config",
         "C:\\.tidyrc"
       ],
-      "disable": true
+      "disable": false
     },
     "phpmd": {
-      "disable": true
+      "disable": false
     },
     "php": {
-      "disable": true
+      "disable": false
+    },
+    "bootlint": {
+      "disable": false,
+      "filter_errors": ["W002", "W005"],
+      "styles": [
+        {
+          "icon": "circle",
+          "annotation": "{msg}"
+        }
+      ]
     }
   },
   "styles": [

@@ -215,7 +215,7 @@
 		// SVELTE //
 		////////////
 		{
-			"scope": "text.html.svelte meta.tag.component.any.html entity.name.tag.inline.form.html",
+			"scope": "entity.name.tag.component.svelte",
 			"foreground": "var(light-orange)"
 		},
 		{
