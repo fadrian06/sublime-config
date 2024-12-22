@@ -28,6 +28,7 @@
     "LSP-astro",
     "LSP-biome",
     "LSP-clangd",
+    "LSP-copilot",
     "LSP-css",
     "LSP-eslint",
     "LSP-file-watcher-chokidar",
@@ -45,6 +46,7 @@
     "LSP-stylelint",
     "LSP-svelte",
     "LSP-tailwindcss",
+    "LSP-twiggy",
     "LSP-typescript",
     "LSP-volar",
     "LSP-vue",
@@ -55,10 +57,10 @@
     "PlainTasks",
     "PowerShell",
     "Prisma",
+    "Pug",
     "QuickView",
     "REST Client",
     "Sass",
-    "SideBarEnhancements",
     "SQLTools",
     "Stylus",
     "subl-comment-snippets",
@@ -78,7 +80,7 @@
     "TOML",
     "Transparency",
     "Visual Studio Code Plus Scheme",
-    "Vue Syntax Highlight",
+    "Vue",
     "Zukan Icon Theme",
   ],
   "bootstrapped": true,
@@ -90,8 +92,5 @@
   "in_process_packages":
   [
   ],
-  "ignore_vcs_packages": [
-    "Terminus"
-  ],
-
+  "ignore_vcs_packages": true,
 }
