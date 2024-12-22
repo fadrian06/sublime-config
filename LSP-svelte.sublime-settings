@@ -6,18 +6,18 @@
         "plugin": {
           "css": {
             "documentColors": {
-              "enable": false
-            }
+              "enable": false,
+            },
           },
           "svelte": {
-            "useNewTransformation": true
-          }
-        }
-      }
-    }
+            "useNewTransformation": true,
+          },
+        },
+      },
+    },
   },
   "settings": {
     "svelte.plugin.svelte.format.config.singleQuote": true,
   },
-  "enabled": false,
+  "enabled": true,
 }
