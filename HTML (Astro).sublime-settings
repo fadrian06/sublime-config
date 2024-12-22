@@ -1,4 +1,9 @@
 // These settings override both User and Default settings for the HTML (Astro) syntax
 {
-  "lsp_format_on_save": true
+  "lsp_format_on_save": true,
+  "indent_guide_options": [
+    "draw_normal",
+    "draw_active_single",
+    "solid"
+  ]
 }
