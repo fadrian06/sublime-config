@@ -212,7 +212,7 @@
   "index_exclude_patterns": [
     "*.log"
   ],
-  "index_files": true,
+  "index_files": false,
   "index_skip_unknown_extensions": true,
   "index_workers": 0,
   "light_color_scheme": "Breakers.sublime-color-scheme",
