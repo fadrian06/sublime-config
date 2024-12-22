@@ -256,6 +256,21 @@
 			"alt+m"
 		],
 		"command": "open_markdown_preview"
-	}
+	},
 	/*=====  End of MARKDOWN LIVE PREVIEW  ======*/
+	/*===============================
+	=            COPILOT            =
+	===============================*/
+	{
+		"keys": [
+			"alt+."
+		],
+		"command": "copilot_ask_completions",
+		"context": [
+			{
+				"key": "copilot.is_authorized",
+			}
+		]
+	},
+	/*=====  End of COPILOT  ======*/
 ]
