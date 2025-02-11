@@ -16,5 +16,5 @@
     "html.customData": [],
     "css.customData": [],
   },
-  "selector": "text.html.basic, text.html.markdown, text.html.blade, text.html.twig, text.html.smarty"
+  "selector": "text.html.basic, text.html.markdown, text.html.blade, text.html.twig, text.html.smarty, text.html.alpinejs"
 }
