@@ -44,7 +44,6 @@
     "LSP-prisma",
     "LSP-pylsp",
     "LSP-pyright",
-    "LSP-rome",
     "LSP-stylelint",
     "LSP-svelte",
     "LSP-tailwindcss",
@@ -70,6 +69,7 @@
     "SublimeLinter",
     "SublimeLinter-annotations",
     "SublimeLinter-contrib-htmlhint",
+    "SublimeLinter-contrib-rector",
     "SublimeLinter-eslint",
     "SublimeLinter-gcc",
     "SublimeLinter-php",
@@ -89,7 +89,8 @@
   "repositories": [
     "https://github.com/Microsoft/TypeScript-Sublime-Plugin.git",
     "https://github.com/fadrian06/subl-comment-snippets",
-    "https://github.com/titoBouzout/Dictionaries"
+    "https://github.com/titoBouzout/Dictionaries",
+    "https://github.com/fadrian06/SublimeLinter-contrib-rector",
   ],
   "in_process_packages":
   [

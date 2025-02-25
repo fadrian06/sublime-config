@@ -36,7 +36,8 @@
       "openssl",
       "tidy",
       "zlib",
-      "intl"
+      "intl",
+      "curl"
     ],
     "intelephense.completion.insertUseDeclaration": true,
     "intelephense.completion.maxItems": 100,
