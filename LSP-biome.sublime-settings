@@ -3,7 +3,6 @@
   "enabled": true,
   "selector": "source.js | source.ts | source.jsx | source.tsx | source.js.jsx | source.js.react | source.ts.react | source.json - source.json.php | source.css",
   "settings": {
-    "biome.rename": true,
-    "biome.lspBin": "C:/ProgramData/scoop/persist/nodejs18/bin/node_modules/@biomejs/biome/bin/biome"
+    "biome.rename": true
   }
 }

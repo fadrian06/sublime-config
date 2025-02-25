@@ -56,7 +56,7 @@
       "disable": false
     },
     "phpmd": {
-      "disable": false
+      "disable": true
     },
     "php": {
       "disable": false
