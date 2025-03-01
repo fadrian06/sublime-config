@@ -99,7 +99,7 @@
 		"scss.lint.hexColorLength": "error",
 		"scss.lint.idSelector": "warning",
 		"scss.lint.ieHack": "warning",
-		"scss.lint.importStatement": "warning",
+		"scss.lint.importStatement": "ignore",
 		"scss.lint.important": "warning",
 		"scss.lint.propertyIgnoredDueToDisplay": "warning",
 		"scss.lint.unknownProperties": "warning",
