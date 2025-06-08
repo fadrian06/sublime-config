@@ -7,5 +7,6 @@
 	  "draw_active_single",
 	  "solid"
 	],
-	"lsp_format_on_save": true
+	"lsp_format_on_save": true,
+	"disable_default_completions": true
 }

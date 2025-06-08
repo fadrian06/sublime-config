@@ -56,7 +56,7 @@
       "disable": false
     },
     "phpmd": {
-      "disable": true
+      "disable": false
     },
     "php": {
       "disable": false
@@ -68,6 +68,14 @@
         {
           "icon": "circle",
           "annotation": "{msg}"
+        }
+      ]
+    },
+    "phpcsfixer": {
+      "styles": [
+        {
+          "icon": "circle",
+          "annotation": "{linter}({code}): {msg}"
         }
       ]
     }

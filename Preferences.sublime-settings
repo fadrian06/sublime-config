@@ -136,11 +136,21 @@
     "CVS"
   ],
   "font_face": "JetBrainsMono NF Medium",
+  // "font_face": "Cascadia Code NF",
   "font_options": [
-    "dwrite_cleartype_natural",
     // "dwrite_cleartype_classic",
-    // "ss01",
-    "ss02"
+    "dwrite_cleartype_natural",
+    // "gdi",
+    "ss01",
+    "ss02",
+    "ss03",
+    "ss04",
+    "ss05",
+    "ss06",
+    "ss07",
+    "ss08",
+    "ss09",
+    "ss10",
   ],
   "git_diff_target": "index",
   "goto_anything_exclude_gitignore": false,
@@ -161,10 +171,10 @@
   "ignored_packages": [
     "ActionScript",
     "AppleScript",
-    "ASP",
     "BootstrapAutocomplete",
     "C#",
     "Clojure",
+    "ColorHelper",
     "D",
     "Erlang",
     "Go",
@@ -173,6 +183,7 @@
     "Haskell",
     "LaTeX",
     "Lisp",
+    "LSP-serenata",
     "Matlab",
     "Objective-C",
     "OCaml",
@@ -308,6 +319,7 @@
   "word_wrap": false,
   "wrap_width": 0,
   "wrap_width_style": "",
+  "sidebar_on_right": true,
   /////////
   // AYU //
   /////////

@@ -63,10 +63,10 @@
     "intelephense.diagnostics.unusedSymbols": true,
     "intelephense.environment.documentRoot": "",
     "intelephense.environment.includePaths": [],
-    "intelephense.environment.phpVersion": "8.2.25",
+    "intelephense.environment.phpVersion": "8.2",
     "intelephense.files.associations": [
       "*.php",
-      "*.phtml"
+      "*.phtml",
     ],
     "intelephense.files.exclude": [
       "**/.git/**",
