@@ -47,6 +47,7 @@
     "LSP-stylelint",
     "LSP-svelte",
     "LSP-tailwindcss",
+    "LSP-taplo",
     "LSP-twiggy",
     "LSP-typescript",
     "LSP-volar",
@@ -95,6 +96,8 @@
   ],
   "in_process_packages":
   [
+    "LSP-pyright",
+    "LSP-some-sass",
   ],
   "ignore_vcs_packages": true,
 }
