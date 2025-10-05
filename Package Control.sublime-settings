@@ -15,6 +15,7 @@
     "ComposerPackageInfo",
     "CSS Intellisense",
     "Dictionaries",
+    "Discord Rich Presence",
     "DocBlockr",
     "Dockerfile Syntax Highlighting",
     "DotENV",
@@ -96,8 +97,6 @@
   ],
   "in_process_packages":
   [
-    "LSP-pyright",
-    "LSP-some-sass",
   ],
   "ignore_vcs_packages": true,
 }
