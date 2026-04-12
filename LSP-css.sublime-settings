@@ -1,4 +1,3 @@
-// Settings in here override those in "LSP-css/LSP-css.sublime-settings"
 {
   "disabled_capabilities": {
   },
@@ -100,7 +99,7 @@
     "scss.lint.validProperties": [],
     "scss.lint.vendorPrefix": "warning",
     "scss.lint.zeroUnits": "warning",
-    "scss.validate": true,
+    "scss.validate": true
   },
-  "enabled": true,
+  "enabled": true
 }

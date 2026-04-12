@@ -1,7 +1,6 @@
-// Settings in here override those in "LSP-some-sass/LSP-some-sass.sublime-settings"
 {
 	"disabled_capabilities": {
-		"documentLinkProvider": true,
+		"documentLinkProvider": true
 	},
 	"settings": {
 		"somesass.css.diagnostics.lint.compatibleVendorPrefixes": "warning",
@@ -42,6 +41,7 @@
 		"somesass.sass.diagnostics.lint.unknownVendorSpecificProperties": "warning",
 		"somesass.sass.diagnostics.lint.important": "warning",
 		"somesass.sass.diagnostics.lint.float": "warning",
-		"somesass.sass.diagnostics.lint.idSelector": "warning"
-	}
+		"somesass.sass.diagnostics.lint.idSelector": "warning",
+	},
+	"enabled": true
 }
