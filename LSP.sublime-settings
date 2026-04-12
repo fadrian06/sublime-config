@@ -11,6 +11,7 @@
     // "source.removeUnused.ts": true,
     // "source.removeUnusedImports.ts": true,
     // "source.sortImports.ts": true,
+    // "source.biome": true,
   },
   "show_diagnostics_in_view_status": false,
   "show_diagnostics_annotations_severity_level": 4,
@@ -18,5 +19,5 @@
   "semantic_highlighting": true,
   "popup_max_characters_width": 80,
   "refactoring_auto_save": "always",
-  "clients": {}
+  "clients": {},
 }
