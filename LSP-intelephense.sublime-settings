@@ -12,9 +12,6 @@
       "pgsql",
       "sqlite3",
       "PDO",
-      "pdo_mysql",
-      "pdo_sqlite",
-      "pdo_ibm",
       "SPL",
       "memcache",
       "memcached",
@@ -37,7 +34,8 @@
       "tidy",
       "zlib",
       "intl",
-      "curl"
+      "curl",
+      "sodium"
     ],
     "intelephense.completion.insertUseDeclaration": true,
     "intelephense.completion.maxItems": 100,
@@ -66,7 +64,7 @@
     "intelephense.environment.phpVersion": "8.2",
     "intelephense.files.associations": [
       "*.php",
-      "*.phtml",
+      "*.phtml"
     ],
     "intelephense.files.exclude": [
       "**/.git/**",
@@ -84,7 +82,6 @@
     "intelephense.format.braces": "per",
     "intelephense.format.enable": true,
     "intelephense.licenceKey": "",
-    "intelephense.maxMemory": 0,
     "intelephense.phpdoc.classTemplate": {
       "summary": "\\$1",
       "tags": [
@@ -115,11 +112,26 @@
       "**/vendor/**"
     ],
     "intelephense.rename.namespaceMode": "single",
-    "intelephense.runtime": "",
     "intelephense.telemetry.enabled": null,
     "statusText": "{% if server_version %}v{{ server_version }}{% endif %}",
     "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
-    "intelephense.compatibility.correctForBaseClassStaticUnionTypes": true,
-    "intelephense.compatibility.correctForArrayAccessArrayAndTraversableArrayUnionTypes": true
+    "intelephense.compatibility.correctForArrayAccessArrayAndTraversableArrayUnionTypes": true,
+    "intelephense.codeLens.implementations.enable": true,
+    "intelephense.codeLens.overrides.enable": true,
+    "intelephense.codeLens.parent.enable": true,
+    "intelephense.codeLens.references.enable": true,
+    "intelephense.codeLens.usages.enable": true,
+    "intelephense.compatibility.preferPsalmPhpstanPrefixedAnnotations": false,
+    "intelephense.completion.parameterCase": "camel",
+    "intelephense.completion.propertyCase": "camel",
+    "intelephense.completion.sortText": "multi-factor",
+    "intelephense.completion.suggestObjectOperatorStaticMethods": true,
+    "intelephense.diagnostics.memberAccess": true,
+    "intelephense.diagnostics.noMixedTypeCheck": false,
+    "intelephense.diagnostics.relaxedTypeCheck": true,
+    "intelephense.inlayHint.parameterNames": true,
+    "intelephense.inlayHint.parameterTypes": true,
+    "intelephense.inlayHint.returnTypes": true,
+    "intelephense.completion.suggestRelativeToPartialUseDeclaration": 0
   }
 }
