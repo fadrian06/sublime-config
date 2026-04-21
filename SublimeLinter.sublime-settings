@@ -9,10 +9,12 @@
   "linters": {
     "stylelint": {
       "selector": "source.css, source.stylus",
-      "disable": false
+      "disable": false,
+      "disable_if_not_dependency": true,
     },
     "eslint": {
-      "selector": "source.js, source.ts, source.tsx, source.jsx, text.html.svelte"
+      "selector": "source.js, source.ts, source.tsx, source.jsx, text.html.svelte",
+      "disable_if_not_dependency": true,
     },
     "gcc": {
       "filter_errors": [
@@ -25,12 +27,14 @@
       "disable": false,
       "args": [
         // "-lmax"
-      ]
+      ],
+      "disable_if_not_dependency": true,
     },
     "phpcs": {
       "args": [
         "-s"
-      ]
+      ],
+      "disable_if_not_dependency": true,
     },
     "annotations": {
       "styles": [
@@ -56,7 +60,8 @@
       "disable": false
     },
     "phpmd": {
-      "disable": false
+      "disable": false,
+      "disable_if_not_dependency": true,
     },
     "php": {
       "disable": false
@@ -69,7 +74,8 @@
           "icon": "circle",
           "annotation": "{msg}"
         }
-      ]
+      ],
+      "disable_if_not_dependency": true,
     },
     "phpcsfixer": {
       "styles": [
@@ -77,7 +83,11 @@
           "icon": "circle",
           "annotation": "{linter}({code}): {msg}"
         }
-      ]
+      ],
+      "disable_if_not_dependency": true,
+    },
+    "oxlint": {
+      "disable_if_not_dependency": true,
     }
   },
   "styles": [
