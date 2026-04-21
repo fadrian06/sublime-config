@@ -72,9 +72,5 @@
     "Transparency",
     "Visual Studio Code Plus Scheme",
   ],
-  "bootstrapped": true,
-  "in_process_packages":
-  [
-  ],
   "ignore_vcs_packages": true,
 }
