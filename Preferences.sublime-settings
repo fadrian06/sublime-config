@@ -171,7 +171,6 @@
   "ignored_packages": [
     "ActionScript",
     "AppleScript",
-    "C#",
     "Clojure",
     "ColorHelper",
     "D",
