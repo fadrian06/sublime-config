@@ -291,12 +291,6 @@
   "wrap_width": 0,
   "wrap_width_style": "",
   "sidebar_on_right": true,
-  /////////
-  // AYU //
-  /////////
-  "ui_native_titlebar": false, // use native titlebars on macOs
-  "ui_separator": true, // separators between panels
-  "ui_wide_scrollbars": true, // wider scrollbars
   /////////////
   // PHPUNIT //
   /////////////

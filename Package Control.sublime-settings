@@ -6,7 +6,6 @@
     "A File Icon",
     "Alignment",
     "All Autocomplete",
-    "ayu",
     "BracketHighlighter",
     "ColorHelper",
     "ComposerPackageInfo",
@@ -73,4 +72,7 @@
     "Visual Studio Code Plus Scheme",
   ],
   "ignore_vcs_packages": true,
+  "in_process_packages":
+  [
+  ],
 }
