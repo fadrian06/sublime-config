@@ -1,0 +1,18 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables": {},
+  "rules": [
+    {
+      "class": "sidebar_tree",
+      "row_padding": [
+        0,
+        4,
+      ],
+    },
+    // Folder & File Icons
+    {
+      "class": "disclosure_button_control",
+      "content_margin": 0,
+    }
+  ]
+}
