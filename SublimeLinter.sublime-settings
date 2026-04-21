@@ -64,7 +64,7 @@
       "disable_if_not_dependency": true,
     },
     "php": {
-      "disable": false
+      "disable": false,
     },
     "bootlint": {
       "disable": false,
@@ -88,7 +88,13 @@
     },
     "oxlint": {
       "disable_if_not_dependency": true,
-    }
+    },
+    "ecs": {
+      "disable_if_not_dependency": true,
+    },
+    "rector": {
+      "disable_if_not_dependency": true,
+    },
   },
   "styles": [
     {
