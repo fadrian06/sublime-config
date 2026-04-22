@@ -67,23 +67,14 @@
     "command": "emmet_enter_abbreviation"
   },
   /*=====  End of EMMET  ======*/
-  /*===========================================
-  =            BRACKET HIGHLIGHTER            =
-  ===========================================*/
+  //
+  // BracketHightlighter
+  //
+  // Convert single quote string to double quoted string and vice versa
+  // Will handle escaping or unescaping quotes within the string
   {
     "keys": [
-      "ctrl+alt+-"
-    ],
-    "command": "bh_key",
-    "args": {
-      "plugin": {
-        "command": "bh_modules.foldbracket"
-      }
-    }
-  },
-  {
-    "keys": [
-      "ctrl+shift+s"
+      "ctrl+alt+s"
     ],
     "command": "bh_async_key",
     "args": {
@@ -99,7 +90,18 @@
       }
     }
   },
-  /*=====  End of BRACKET HIGHLIGHTER  ======*/
+  // Fold contents between brackets
+  {
+    "keys": [
+      "ctrl+alt+-"
+    ],
+    "command": "bh_key",
+    "args": {
+      "plugin": {
+        "command": "bh_modules.foldbracket"
+      }
+    }
+  },
   /*===========================================
   =            SIDEBAR ENHANCEMENT            =
   ===========================================*/
