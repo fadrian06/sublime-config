@@ -1,18 +1,10 @@
 // Settings in here override those in "LSP-pyright/LSP-pyright.sublime-settings"
 {
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportDuplicateImport": "warning",
-    "reportImplicitStringConcatenation": "warning",
-    "reportMissingParameterType": "warning",
-    "reportUnboundVariable": "warning",
-    "reportUninitializedInstanceVariable": "warning",
-    "reportUnusedClass": "information",
-    "reportUnusedFunction": "information",
-    "reportUnusedImport": "information",
-    "reportUnusedVariable": "information",
-    "reportMissingImport": "off"
-  },
   "settings": {
-    "pyright.dev_environment": "sublime_text"
+    "pyright.dev_environment": "sublime_text",
+    "python.analysis.extraPaths": [
+      "C:\\ProgramData\\scoop\\persist\\sublime-text\\Data\\Lib\\python33",
+      "C:\\ProgramData\\scoop\\persist\\sublime-text\\Data\\Lib\\python38",
+    ]
   }
 }
