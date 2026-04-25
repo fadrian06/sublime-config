@@ -43,5 +43,6 @@
 		"somesass.sass.diagnostics.lint.float": "warning",
 		"somesass.sass.diagnostics.lint.idSelector": "warning",
 	},
-	"enabled": true
+	"enabled": true,
+	"selector": "source.scss | source.sass"
 }
