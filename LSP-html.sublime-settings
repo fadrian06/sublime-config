@@ -20,7 +20,7 @@
     "html.format.unformattedContentDelimiter": "",
     "html.format.wrapAttributes": "preserve",
     "html.format.wrapAttributesIndentSize": null,
-    "html.format.wrapLineLength": 80,
+    "html.format.wrapLineLength": 0,
     "html.hover.documentation": true,
     "html.hover.references": true,
     "html.suggest.html5": true,
