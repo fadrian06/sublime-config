@@ -40,9 +40,17 @@
   },
   {
     "keys": [
-      "ctrl+0"
+      "alt+b"
     ],
-    "command": "reset_font_size"
+    "command": "hide_panel",
+    "args": {
+      "panel": "output.exec"
+    },
+    "context": [
+      {
+        "key": "panel_visible",
+      }
+    ]
   },
   /*=============================
   =            EMMET            =
