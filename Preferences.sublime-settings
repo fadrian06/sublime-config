@@ -250,7 +250,7 @@
   "show_git_status": true,
   "show_git_status_in_status_bar": true,
   "show_indentation": true,
-  "show_legacy_color_schemes": true,
+  "show_legacy_color_schemes": false,
   "show_line_column": "enabled",
   "show_line_endings": true,
   "show_navigation_bar": true,
