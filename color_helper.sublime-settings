@@ -2,44 +2,20 @@
 {
 	"click_color_box_to_pick": "color_picker",
 	"enabled_color_picker_modes": [
-		"srgb"
+		"srgb",
 	],
 	"preferred_color_picker_mode": "srgb",
 	"user_color_rules": [
-		// {
-		// 	"name": "JSON",
-		// 	"colol_class": "css-level-4",
-		// 	"scanning": [
-		// 		"meta.mapping.value.json string.quoted.double.json"
-		// 	]
-		// }
-	],
-	"user_color_classes": {
-		"css-level-4": {
-			"filters": [
-				"srgb",
-				"hsl"
+		{
+			"name": "HTML/CSS",
+			"allow_scanning": false,
+		},
+		{
+			"name": "JSON",
+			"color_class": "css-level-3",
+			"scanning": [
+				"source.json.npm meta.mapping.value.json meta.string.json string.quoted.double.json"
 			],
-			"output": [
-				{
-					"space": "srgb",
-					"format": {
-						"hex": true
-					}
-				},
-				{
-					"space": "srgb",
-					"format": {
-						"comma": true
-					}
-				},
-				{
-					"space": "hsl",
-					"format": {
-						"comma": true
-					}
-				}
-			]
-		}
-	}
+		},
+	],
 }
