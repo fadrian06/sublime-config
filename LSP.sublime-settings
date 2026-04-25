@@ -19,5 +19,5 @@
   "semantic_highlighting": true,
   "popup_max_characters_width": 80,
   "refactoring_auto_save": "always",
-  "clients": {},
+  "lsp_format_on_save": true,
 }
