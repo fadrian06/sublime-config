@@ -14,7 +14,8 @@
 			"name": "JSON",
 			"color_class": "css-level-3",
 			"scanning": [
-				"source.json.npm meta.mapping.value.json meta.string.json string.quoted.double.json"
+				"source.json.npm meta.mapping.value.json meta.string.json string.quoted.double.json",
+				"source.json meta.mapping.value.json meta.mapping.value.json meta.string.json string.quoted.double.json",
 			],
 		},
 	],
