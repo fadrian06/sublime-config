@@ -63,10 +63,7 @@
     "intelephense.environment.documentRoot": "",
     "intelephense.environment.includePaths": [],
     "intelephense.environment.phpVersion": "8.2",
-    "intelephense.files.associations": [
-      "*.php",
-      "*.phtml"
-    ],
+    "intelephense.files.associations": ["*.php", "*.phtml"],
     "intelephense.files.exclude": [
       "**/.git/**",
       "**/.svn/**",
@@ -85,9 +82,7 @@
     "intelephense.licenceKey": "",
     "intelephense.phpdoc.classTemplate": {
       "summary": "\\$1",
-      "tags": [
-        "@package \\${1:\\$SYMBOL_NAMESPACE}"
-      ]
+      "tags": ["@package \\${1:\\$SYMBOL_NAMESPACE}"]
     },
     "intelephense.phpdoc.functionTemplate": {
       "summary": "\\$1",
@@ -99,19 +94,13 @@
     },
     "intelephense.phpdoc.propertyTemplate": {
       "summary": "\\$1",
-      "tags": [
-        "@var \\${1:\\$SYMBOL_TYPE}"
-      ]
+      "tags": ["@var \\${1:\\$SYMBOL_TYPE}"]
     },
     "intelephense.phpdoc.returnVoid": true,
     "intelephense.phpdoc.textFormat": "snippet",
     "intelephense.phpdoc.useFullyQualifiedNames": false,
-    "intelephense.references.exclude": [
-      "**/vendor/**"
-    ],
-    "intelephense.rename.exclude": [
-      "**/vendor/**"
-    ],
+    "intelephense.references.exclude": ["**/vendor/**"],
+    "intelephense.rename.exclude": ["**/vendor/**"],
     "intelephense.rename.namespaceMode": "single",
     "intelephense.telemetry.enabled": null,
     "statusText": "{% if server_version %}v{{ server_version }}{% endif %}",
