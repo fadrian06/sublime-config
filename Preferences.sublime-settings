@@ -31,7 +31,7 @@
   "smart_indent": true,
   "indent_to_bracket": true,
   "trim_automatic_white_space": true,
-  "word_wrap": "auto",
+  "word_wrap": false,
   "wrap_width": 0,
   "wrap_width_style": "constant",
   "indent_subsequent_lines": true,
