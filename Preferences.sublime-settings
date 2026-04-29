@@ -38,7 +38,10 @@
   "draw_centered": false,
   "auto_match_enabled": true,
   "auto_close_tags": true,
-  "dictionary": "Packages/Dictionaries/Spanish.dic",
+  "dictionary": [
+    "Packages/Dictionaries/Spanish.dic",
+    "Packages/Language - English/en_US.dic"
+  ],
   "spelling_selector": "markup.raw, source string.quoted - punctuation - meta.preprocessor.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)",
   "draw_minimap_border": false,
   "always_show_minimap_viewport": false,
