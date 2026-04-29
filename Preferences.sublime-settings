@@ -133,7 +133,7 @@
   "find_in_files_context_characters": 300,
   "find_in_files_suppress_errors": false,
   "drag_text": true,
-  "focus_on_file_drop": false,
+  "focus_on_file_drop": true,
   //
   // User Interface Settings
   //
