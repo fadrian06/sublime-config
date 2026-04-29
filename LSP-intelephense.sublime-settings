@@ -35,7 +35,8 @@
       "zlib",
       "intl",
       "curl",
-      "sodium"
+      "sodium",
+      "readline"
     ],
     "intelephense.completion.insertUseDeclaration": true,
     "intelephense.completion.maxItems": 100,
