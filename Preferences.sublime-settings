@@ -115,7 +115,7 @@
   "reveal_tabs_with_timeout": false,
   "reveal_menu": true,
   "hide_pointer_while_typing": true,
-  "shift_tab_unindent": false,
+  "shift_tab_unindent": true,
   "copy_with_empty_selection": true,
   "find_selected_text": true,
   "regex_auto_escape": true,
