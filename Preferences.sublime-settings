@@ -33,7 +33,7 @@
   "trim_automatic_white_space": true,
   "word_wrap": false,
   "wrap_width": 0,
-  "wrap_width_style": "constant",
+  "wrap_width_style": "min",
   "indent_subsequent_lines": true,
   "draw_centered": false,
   "auto_match_enabled": true,
